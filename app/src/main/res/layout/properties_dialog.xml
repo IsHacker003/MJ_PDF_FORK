@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/properties_padding"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/properties_padding">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        card_view:cardMaxElevation="5dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/properties_padding"
+            android:paddingHorizontal="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/file_properties"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <TableRow
+                android:id="@+id/titleRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fileNameRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_file_name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fileNameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="4"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/authorRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_author"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/authorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/pagesRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_pages"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pages_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/subjectRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_subject"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/subjectText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/keywordsRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_keywords"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/keywordsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="3"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/createdRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_created"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/created_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/modifiedRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_modified"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/modified_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/creatorRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_created_by"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/creatorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/producedByRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_produced_by"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/produced_by_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="3"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fileSizeRow"
+                android:layout_marginTop="@dimen/properties_padding"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:text="@string/pdf_file_size"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fileSizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/properties_padding"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+<!--            <TableRow-->
+<!--                android:id="@+id/locationRow"-->
+<!--                android:layout_marginTop="@dimen/properties_padding"-->
+<!--                android:layout_marginBottom="@dimen/properties_padding"-->
+<!--                tools:ignore="UselessParent">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/properties_padding"-->
+<!--                    android:text="@string/pdf_location"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/location_text"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/properties_padding"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:maxLines="3"-->
+<!--                    android:textColor="@android:color/black" />-->
+<!--            </TableRow>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/properties_padding"
+                android:gravity="end">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:id="@+id/okButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@android:string/ok"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

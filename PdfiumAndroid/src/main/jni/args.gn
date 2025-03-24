@@ -1,0 +1,7 @@
+is_debug = false
+pdf_enable_v8 = false
+pdf_enable_xfa = false
+pdf_is_standalone = true
+target_cpu = "x86"
+target_os = "android"
+treat_warnings_as_errors = false

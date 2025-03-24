@@ -1,0 +1,31 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/actionbarPageNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:textSize="18sp"
+        android:textColor="?colorOnBackground"
+        android:text="@string/page_number"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/actionbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:textSize="18sp"
+        android:textColor="?colorOnBackground"
+        android:text="@string/mj_app_name"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

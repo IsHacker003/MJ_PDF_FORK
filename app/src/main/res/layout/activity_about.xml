@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:dividerHorizontal"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aboutAppLogo"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/aboutAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:text="@string/mj_app_name"
+                android:fontFamily="@font/roboto_medium"
+                android:textAllCaps="false"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/versionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/aboutApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/about_app"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16sp"
+                android:text="@string/app_info"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/introView"
+                android:onClick="replayIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/intro"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/replay_icon" />
+
+            <TextView
+                android:id="@+id/changeView"
+                android:onClick="showLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/appChangelog"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/log_icon" />
+
+            <TextView
+                android:id="@+id/licenseView"
+                android:onClick="showLicense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/myLicense"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/license_icon" />
+
+            <TextView
+                android:id="@+id/privacyView"
+                android:onClick="showPrivacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/privacy"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/privacy_icon" />
+
+            <TextView
+                android:id="@+id/codeView"
+                android:onClick="navToSourceCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/code"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/code_icon" />
+
+            <TextView
+                android:id="@+id/libView"
+                android:onClick="showLibraries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/libs"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/lib_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16sp"
+                android:text="@string/author_info"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/emailView"
+                android:onClick="emailDev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/email"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/email_icon" />
+
+            <TextView
+                android:id="@+id/gitView"
+                android:onClick="navToGit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="16dp"
+                android:padding="16sp"
+                android:text="@string/gitlab"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_gitlab" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

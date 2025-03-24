@@ -1,0 +1,251 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+    <string name="what_is_new">
+        * Arapça, Çince, Türkçe, Almanca, İspanyolca, Portekizce, Hintçe, Rusça desteği eklendi.\n\n
+        * Arama İyileştirmeleri: Sonuçlara dönüş düğmesi; daha iyi vurgulama.\n\n
+        * Kullanıcı Arayüzü Düzeltmeleri: İkon renklerinin tutarlılığı, düzen ve görünürlükte iyileştirmeler.\n\n
+        * Her Zaman Yatay modu eklendi.\n\n
+        * Ayarlar içinde Deneysel PDF Yeniden Yükle düğmesi eklendi.\n\n
+        * Şifre korumalı ve yerel olmayan PDF\'ler için daha iyi destek.\n\n
+        * Kararlılık: Arka plan işlemlerinden kaynaklanan çökmeler düzeltildi.\n\n
+        * Geliştirme: SDK, Gradle ve bağımlılıklar güncellendi.
+    </string>
+    <string name="pick_file">Dosya Seç</string>
+    <string name="toast_pick_file_error">Dosya seçilemedi! Telefonunuzdaki dosya yöneticisini kontrol edin.</string>
+    <string name="toast_http_code_error">Uzak sunucu bir hata ile yanıt verdi.</string>
+    <string name="toast_generic_download_error">Bu dosya bazı nedenlerden dolayı indirilemedi.</string>
+    <string name="toast_ssl_error">Güvenli bağlantı başarısız oldu.</string>
+    <string name="saved_to_download">Dosya İndirilenler klasörüne kaydedildi.</string>
+    <string name="save_to_download_failed">İndirilenler klasörüne dosya kaydedilemedi.</string>
+    <string name="action_about">Hakkında</string>
+    <string name="intro">Girişi Yeniden Oynat</string>
+    <string name="email">E-posta (YAZAR)</string>
+    <string name="description_open">Ücretsiz ve kısıtlamasız.\nUygulamayı ve kaynak kodunu okuyabilir, düzenleyebilir, paylaşabilir ve yeniden dağıtabilirsiniz.</string>
+    <string name="title_open">SENİNDİR</string>
+    <string name="description_intro">Hızlı, basit ve güçlü bir PDF okuyucu</string>
+    <string name="myLicense">Lisans</string>
+    <string name="privacy">Gizlilik Politikası</string>
+
+    <string name="appChangelog">Özellikler / Değişiklik Kaydı</string>
+    <string name="done">TAMAMLANDI</string>
+    <string name="results">ARAMA SONUÇLARI</string>
+    <string name="ok">TAMAM</string>
+    <string name="title_permission">Depolama İzinleri</string>
+    <string name="description_permission">Uygulama, belgeleri okuyup yazabilmek için depolama izni isteyecektir.</string>
+    <string name="libs">Açık Kaynak Kütüphaneleri</string>
+    <string name="code">Kaynak Kodu</string>
+    <string name="share">Paylaş</string>
+    <string name="share_file">Dosya Paylaş</string>
+    <string name="print_file">Dosya Yazdır</string>
+    <string name="full_screen">Tam Ekran</string>
+    <string name="app_info">Uygulama Bilgisi</string>
+    <string name="author_info">Yazar Bilgisi</string>
+
+    <string name="file_metadata">Dosya Meta Verisi</string>
+    <string name="app_settings">Uygulama Ayarları</string>
+    <string name="quality">Yüksek Kalite Renderlama</string>
+    <string name="settings">Ayarlar</string>
+    <string name="anti_aliasing">Kenar Yumuşatma</string>
+    <string name="horizontal_scrolling_mode">Yatay Kaydırma</string>
+    <string name="double_tap_to_exit">Çıkmak İçin Çift Tıklayın</string>
+    <string name="snap">Sayfa Yerine Oturma</string>
+    <string name="snap_summary">Her kaydırdıktan sonra görünümü geçerli sayfada ortalar</string>
+    <string name="fling">Sayfa Fırlatma</string>
+    <string name="fling_summary">Bir sonraki sayfaya doğrudan geçmek için hızlı bir kaydırma yapın</string>
+    <string name="visual_settings">Görsel Ayarlar</string>
+    <string name="pdf_title">Başlık</string>
+    <string name="pdf_author">Yazar</string>
+    <string name="file_opening_error">PDF açılırken hata. (depolama izni? boş alan?)</string>
+
+    <string name="protected_pdf">Korumalı PDF</string>
+    <string name="enter_password">Belgeyi açmak için doğru şifreyi girin:</string>
+    <string name="wrong_password">Yanlış şifre.</string>
+    <string name="keep_screen_on">Ekranı açık tut</string>
+    <string name="space_between_pages">Sayfalar Arası Boşluk</string>
+    <string name="privacy_info">Bu uygulama herhangi bir veri toplamaz.\nUygulamada belirli özellikleri sağlamak için aşağıdaki izinler gereklidir:\n- <b>Internet</b>: bağlantılar aracılığıyla PDF\'leri açma\n- <b>Depolama</b>: depolamadan dosyaları açma, bağlantılar aracılığıyla açılan PDF\'leri kaydetme</string>
+    <string name="switch_theme">PDF Temasını Değiştir</string>
+    <string name="open_another_pdf">Başka Bir PDF Aç</string>
+    <string name="close">Kapat</string>
+    <string name="exit_fullscreen_button">Tam Ekranı Kapatma Düğmesi</string>
+    <string name="ask_restore_zoom">Yakınlaştırmayı Geri Yükle?</string>
+    <string name="rotate_screen">Ekranı Döndür</string>
+   …
+    <string name="exit_fullscreen_message">Ekrana dokunmak, sol üst köşede bir X düğmesi gösterecek. Tam ekranı kapatmak için ona tıklayın.</string>
+
+    <string name="exit_fullscreen_title">Tam Ekrandan Çıkmak İçin</string>
+    <string name="exit_fullscreen_positive">Tekrar gösterme</string>
+    <string name="about_app">MJ PDF, Mudlej tarafından yapılmış hızlı, minimalist, güçlü ve tamamen ücretsiz bir PDF görüntüleyicisidir.</string>
+    <string name="permission_denied">İzin reddedildi</string>
+    <string name="error_load_file_name">Dosya adı alınamadı</string>
+    <string name="cannot_load_page">"Sayfa yüklenemiyor "</string>
+    <string name="experimental">Deneysel</string>
+    <string name="caution">Dikkat</string>
+    <string name="app_dark_dialog_message">Bazı cihazlarda bu seçenek, PDF okurken siyah dikdörtgenlerin görünmesine neden olabilir. Bu durumda, bu seçeneği kapatmanız yeterlidir.</string>
+    <string name="restore">Geri Yükle</string>
+    <string name="no_pdf_in_app">Uygulamada açık PDF yok</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="advanced_config">Gelişmiş Yapılandırma</string>
+    <string name="part_size_value">PARÇA BOYUTU değeri</string>
+
+    <string name="max_zoom_value">MAKS ZOOM değeri</string>
+    <string name="apply">Uygula</string>
+    <string name="reset">Sıfırla</string>
+    <string name="cancel">İptal</string>
+    <string name="page">Sayfa</string>
+    <string name="bookmarks">Yer İşaretleri</string>
+    <string name="no_bookmarks">Bu dosya yer işaretleri içermiyor</string>
+    <string name="additional_options">Daha Fazla</string>
+    <string name="search">Ara</string>
+    <string name="search_results">Arama Sonuçları</string>
+    <string name="copied_to_clipboard">Metin panoya kopyalandı</string>
+    <string name="copy_all">Hepsini Kopyala</string>
+    <string name="increase_text_size">Boyutu Artır</string>
+    <string name="decrease_text_size">Boyutu Azalt</string>
+
+    <string name="search_dialog_message">Bu uygulama PDF\'den metin çıkarmaya çalışır, bu nedenle doğru veya kesin olmayabilir</string>
+    <string name="enter_text_to_search">Aramak için metin girin</string>
+    <string name="this_is_experimental">Bu deneyseldir</string>
+    <string name="this_is_experimental_message">Uygulamanın bu özelliği hala geliştirme aşamasında olup stabil veya tamamen doğru değildir.</string>
+    <string name="go_back">Geri Dön</string>
+    <string name="selectable_text">Sayfadaki Seçilebilir Metin</string>
+    <string name="show_copy_dialog_summary">Basılı tutulduğunda sayfanın çıkarılmış metnini içeren bir açılır pencere göster.</string>
+    <string name="show_copy_dialog_title">Kopyala Metin İletişim Kutusunu Göster</string>
+    <string name="copy_page_text">Sayfanın Metnini Kopyala</string>
+    <string name="turn_page_by_volume_buttons_title">Sayfa Çevirme Ses Düğmeleri ile</string>
+    <string name="turn_page_by_volume_buttons_summary">Fiziksel ses düğmelerini kullanarak bir sonraki veya önceki sayfaya geçin</string>
+    <string name="dont_pop_up">Açılır pencere gösterme!</string>
+    <string name="text_mode">Metin Modu</string>
+    <string name="go_to_page">Sayfaya Git</string>
+
+    <string name="no_input">Girdi Yok!</string>
+    <string name="go_to">Git</string>
+    <string name="search_field">Ara…</string>
+    <string name="expand_or_collapse_bookmark">yer işaretini genişlet veya daralt</string>
+    <string name="table_of_contents">İçindekiler Tablosu</string>
+    <string name="screenshot_saved">Ekran görüntüsü başarıyla kaydedildi</string>
+    <string name="failed_save_screenshot">Ekran görüntüsü kaydedilemedi!</string>
+    <string name="links_in_file">Dosyadaki Bağlantılar</string>
+    <string name="page_number">[0/0]</string>
+    <string name="searching">Aranıyor…</string>
+    <string name="expand_search_result_text">Daha fazla göstermek için arama sonucu metnini genişletin</string>
+    <string name="no_table_of_contents">İçindekiler Tablosu Yok</string>
+    <string name="too_short_query">Çok Kısa Sorgu</string>
+    <string name="too_short_query_message">UYARI: \'%s\' arama sorgusu çok kısa! Telefonunuz çok fazla sonucu işlemekte zorlanabilir. Sonrasında problem yaşarsanız, uygulamayı kapatıp tekrar açın.</string>
+
+    <string name="loading">Yükleniyor…</string>
+    <string name="no_links_put_in_pdf">Belgeye bilinçli olarak bağlantı eklenmemiştir.</string>
+    <string name="links_activity_title">PDF\'de Yer Alan Bağlantılar</string>
+    <string name="too_many_results_may_be_slow">Çok fazla sonuç! Sonuçları aramak yavaş olabilir.</string>
+    <string name="links_in_document">Belgedeki Bağlantılar</string>
+    <string name="number_of_filtered_results" tools:ignore="PluralsCandidate">"%,d filtrelenmiş sonuç."</string>
+    <string name="no_app_to_open_link">Bağlantıyı açacak uygun bir uygulama bulunamadı</string>
+    <string name="copy_link_url">Bağlantı URL\'sini Kopyala</string>
+    <string name="failed_to_extract_text">Metin çıkarılamadı</string>
+    <string name="page_counter_label">Sayfa: %d/%d</string>
+    <string name="next_page">Sonraki Sayfa</string>
+    <string name="prev_page">Önceki Sayfa</string>
+    <string name="text_color">Metin Rengi</string>
+    <string name="background_color">Arka Plan Rengi</string>
+
+    <string name="reset_to_default">Varsayılana Sıfırla</string>
+    <string name="proceed_anyway">Yine de Devam Et</string>
+    <string name="page_out_of_bound" tools:ignore="PluralsCandidate">Sayfa #%d bu PDF\'te mevcut değil.</string>
+    <string name="press_back_again">Çıkmak için tekrar geriye basın</string>
+    <string name="dracula_theme">Dracula Teması</string>
+    <string name="non_clickable_pdf_icon">tıklanamayan PDF simgesi</string>
+    <string name="recently_opened">Son Açılanlar</string>
+    <string name="delete">Sil</string>
+    <string name="delete_dialog_title">Emin misiniz?</string>
+    <string name="delete_dialog_message">Kayıt silindiğinde, uygulama PDF hakkında bildiği her şeyi unutacaktır.</string>
+    <string name="list_mode">Liste Modu</string>
+    <string name="filter_list_dialog_title">Dosyaları Filtrele</string>
+    <string name="status">Durum</string>
+    <string name="favorite">Favori</string>
+
+    <string name="favorite_icon">favori simge</string>
+    <string name="last_opened_key">Son Açılan:</string>
+    <string name="pdf_cover_image">PDF Kapak Resmi</string>
+    <string name="all_files">Tüm Dosyalar</string>
+    <string name="about_record">Kayıt Hakkında</string>
+    <string name="record_percentage_template">(%d%%)</string>
+    <string name="pages">sayfalar</string>
+    <string name="exit">Çıkış</string>
+    <string name="rotate">Döndür</string>
+    <string name="auto_scroll">Otomatik Kaydırma</string>
+    <string name="horizontal_lock">Yatay Kilidi</string>
+    <string name="zoom_lock">Yakınlaştırma Kilidi</string>
+    <string name="screenshot">Ekran Görüntüsü</string>
+    <string name="hide_labels">Etiketleri Gizle</string>
+
+    <string name="brightness">Parlaklık</string>
+    <string name="behavior_settings">Davranış Ayarları</string>
+    <string name="auto_full_screen">Otomatik Tam Ekran</string>
+    <string name="auto_full_screen_summary">Bir belge açıldığında, otomatik olarak Tam Ekran moduna geçiş yapar.</string>
+    <string name="always_horizontal">Her Zaman Yatay Modda</string>
+    <string name="always_horizontal_summary">Portre modu yerine her zaman manzara / yatay modu kullanın.</string>
+    <string name="dark_theme_for_app">UI Sistem Temasını Takip Ediyor</string>
+    <string name="app_dark_theme_summary">Uygulamanın kullanıcı arayüzünün (PDF içeriği dışında) sisteminizin açık veya koyu temasına otomatik olarak uyum sağlamasını sağlar. \n\nNot: Bu seçenek bazı cihazlarda PDF arka plan renklerini etkileyebilir.</string>
+    <string name="dark_theme_for_pdf">PDF Sistem Temasını Takip Ediyor</string>
+    <string name="pdf_dark_theme_summary">PDF sayfalarının ve içeriğinin sisteminizin açık veya koyu temasına otomatik olarak uyum sağlamasını sağlar. \n\nNot: Bu seçeneği etkinleştirmek ana menüdeki \'PDF Temasını Değiştir\' seçeneğini devre dışı bırakır.</string>
+    <string name="enable_reload_button">Uygulama Çubuğunda Yeniden Yükleme Düğmesini Göster</string>
+    <string name="enable_reload_summary">İçeriğinizi hızlı bir şekilde yenileyerek belgelerdeki güncellemelerin hemen görünür olmasını sağlar.</string>
+    <string name="save_password">Şifreyi Kaydet</string>
+    <string name="send_crash_report_title">Anonim Çökme Raporu Gönderilsin mi?</string>
+
+    <string name="send_crash_report_message">Rapor aşağıdakileri içerir: (STACK_TRACE, APP_VERSION_CODE, APP_VERSION_NAME, USER_CRASH_DATE, PACKAGE_NAME, ANDROID_VERSION, PHONE_MODEL, LOGCAT, AVAILABLE_MEM_SIZE)</string>
+    <string name="send">Gönder</string>
+    <string name="no">Hayır</string>
+    <string name="toggle_shortcuts">Kısayolları Değiştir</string>
+    <string name="file_properties">Dosya Özellikleri</string>
+    <string name="pdf_pages">Sayfalar</string>
+    <string name="pdf_subject">Konu</string>
+    <string name="pdf_keywords">Anahtar Kelimeler</string>
+    <string name="pdf_created">Oluşturulma</string>
+    <string name="pdf_modified">Değiştirilme</string>
+    <string name="pdf_created_by">Oluşturan</string>
+    <string name="pdf_produced_by">Üreten</string>
+    <string name="pdf_file_size">Dosya Boyutu</string>
+    <string name="pdf_file_name">Dosya Adı</string>
+    <string name="reload_pdf">PDF\'i Yeniden Yükle</string>
+    <string name="text_extraction">Metin çıkarma</string>
+    <string name="search_in_page">Sayfada arama</string>
+
+</resources>

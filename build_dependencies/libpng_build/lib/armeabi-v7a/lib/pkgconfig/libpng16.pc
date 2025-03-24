@@ -1,0 +1,12 @@
+prefix=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/armeabi-v7a
+exec_prefix=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/armeabi-v7a
+libdir=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/armeabi-v7a/lib
+includedir=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/armeabi-v7a/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.47
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

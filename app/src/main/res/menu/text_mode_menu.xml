@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/increase_text_size"
+        android:title="@string/increase_text_size"
+        android:icon="@drawable/ic_increase_text_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/decrease_text_size"
+        android:title="@string/decrease_text_size"
+        android:icon="@drawable/ic_deccrease_text_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/text_color"
+        android:title="@string/text_color"
+        android:icon="@drawable/ic_color_palate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/background_color"
+        android:title="@string/background_color"
+        android:icon="@drawable/ic_color_palate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dracula_theme"
+        android:title="@string/dracula_theme"
+        android:icon="@drawable/ic_night_light"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reset_to_Default"
+        android:title="@string/reset_to_default"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_in_text_mode"
+        android:title="@string/search_in_page"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="never|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:visible="true"/>
+
+</menu>

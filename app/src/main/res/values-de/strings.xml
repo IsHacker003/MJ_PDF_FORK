@@ -1,0 +1,248 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+    <string name="what_is_new">
+        * Unterstützung für Arabisch, Chinesisch, Türkisch, Deutsch, Spanisch, Portugiesisch, Hindi, Russisch hinzugefügt.\n\n
+        * Suchverbesserungen: Zurück-zu-den-Ergebnissen-Knopf; besseres Hervorheben.\n\n
+        * UI-Korrekturen: Konsistente Icon-Farben, verbessertes Layout und Sichtbarkeit.\n\n
+        * Immer Horizontal Modus hinzugefügt.\n\n
+        * Experimenteller PDF neu laden-Knopf in den Einstellungen hinzugefügt.\n\n
+        * Bessere Unterstützung für passwortgeschützte und nicht-lokale PDFs.\n\n
+        * Stabilität: Abstürze durch Hintergrundoperationen behoben.\n\n
+        * Entwicklung: SDK, Gradle und Abhängigkeiten aktualisiert.
+    </string>
+    <string name="pick_file">Datei wählen</string>
+    <string name="toast_pick_file_error">Datei konnte nicht ausgewählt werden! Überprüfen Sie Ihren Dateimanager auf Ihrem Telefon.</string>
+    <string name="toast_http_code_error">Fernserver hat mit einem Fehler geantwortet.</string>
+    <string name="toast_generic_download_error">Diese Datei konnte aus irgendeinem Grund nicht heruntergeladen werden.</string>
+    <string name="toast_ssl_error">Sichere Verbindung fehlgeschlagen.</string>
+    <string name="saved_to_download">Datei im Download-Ordner gespeichert.</string>
+    <string name="save_to_download_failed">Datei konnte nicht im Download-Ordner gespeichert werden.</string>
+    <string name="action_about">Über</string>
+    <string name="intro">Intro wiederholen</string>
+    <string name="email">E-Mail (AUTOR)</string>
+    <string name="description_open">Kostenfrei und ohne Einschränkungen.\nSie können die App und ihren Quellcode lesen, bearbeiten, teilen und redistribuieren.</string>
+    <string name="title_open">ES IST DEINS</string>
+    <string name="description_intro">Ein schneller, einfacher und mächtiger PDF-Reader</string>
+    <string name="myLicense">Lizenz</string>
+    <string name="privacy">Datenschutzbestimmungen</string>
+
+    <string name="appChangelog">Funktionen / Änderungsprotokoll</string>
+    <string name="done">FERTIG</string>
+    <string name="results">SUCHERGEBNISSE</string>
+    <string name="ok">OK</string>
+    <string name="title_permission">Speicherberechtigungen</string>
+    <string name="description_permission">Die App wird um die Speicherberechtigung bitten, um Dokumente lesen/schreiben zu können.</string>
+    <string name="libs">Open-Source-Bibliotheken</string>
+    <string name="code">Quellcode</string>
+    <string name="share">Teilen</string>
+    <string name="share_file">Datei teilen</string>
+    <string name="print_file">Datei drucken</string>
+    <string name="full_screen">Vollbild</string>
+    <string name="app_info">App-Info</string>
+    <string name="author_info">Autorinfo</string>
+
+    <string name="file_metadata">Datei-Metadaten</string>
+    <string name="app_settings">App-Einstellungen</string>
+    <string name="quality">Hochwertiges Rendering</string>
+    <string name="settings">Einstellungen</string>
+    <string name="anti_aliasing">Anti-Aliasing</string>
+    <string name="horizontal_scrolling_mode">Horizontales Scrollen</string>
+    <string name="double_tap_to_exit">Doppeltippen zum Beenden</string>
+    <string name="snap">Seitenrastung</string>
+    <string name="snap_summary">Zentriere die Ansicht auf der aktuellen Seite nach jedem Wischen</string>
+    <string name="fling">Seitenwurf</string>
+    <string name="fling_summary">Führe eine schnelle Wischbewegung aus, um direkt zur nächsten Seite zu springen</string>
+    <string name="visual_settings">Visuell</string>
+    <string name="pdf_title">Titel</string>
+    <string name="pdf_author">Autor</string>
+    <string name="file_opening_error">Fehler beim Öffnen des PDFs. (Speicherberechtigung? Freier Speicher?)</string>
+    <string name="protected_pdf">Geschütztes PDF</string>
+    <string name="enter_password">Gib das korrekte Passwort ein, um das Dokument zu öffnen:</string>
+    <string name="wrong_password">Falsches Passwort.</string>
+    <string name="keep_screen_on">Bildschirm aktiv halten</string>
+    <string name="space_between_pages">Abstand zwischen Seiten</string>
+    <string name="privacy_info">Diese App sammelt keine Daten.\nDie folgenden Berechtigungen sind erforderlich, um spezifische Funktionen in der App zu ermöglichen:\n- <b>Internet</b>: Öffne PDFs über Links\n- <b>Speicher</b>: Öffne Dateien aus dem Speicher, speichere PDFs, die über Links geöffnet wurden</string>
+    <string name="switch_theme">PDF-Theme umschalten</string>
+    <string name="open_another_pdf">Ein anderes PDF öffnen</string>
+    <string name="close">Schließen</string>
+    <string name="exit_fullscreen_button">Vollbildmodus beenden</string>
+    <string name="ask_restore_zoom">Zoom wiederherstellen?</string>
+    <string name="rotate_screen">Bildschirm drehen</string>
+   …
+    <string name="exit_fullscreen_message">Durch Tippen auf den Bildschirm erscheint oben links ein X-Button. Klicke darauf, um den Vollbildmodus zu beenden.</string>
+
+    <string name="exit_fullscreen_title">Vollbildmodus beenden</string>
+    <string name="exit_fullscreen_positive">Nicht mehr anzeigen</string>
+    <string name="about_app">MJ PDF ist ein schneller, minimalistischer, leistungsstarker und völlig kostenloser PDF-Viewer, erstellt von Mudlej.</string>
+    <string name="permission_denied">Zugriff verweigert</string>
+    <string name="error_load_file_name">Dateiname konnte nicht abgerufen werden</string>
+    <string name="cannot_load_page">"Seite kann nicht geladen werden "</string>
+    <string name="experimental">Experimentell</string>
+    <string name="caution">Vorsicht</string>
+    <string name="app_dark_dialog_message">Auf einigen Geräten kann diese Option schwarze Rechtecke beim Lesen von PDFs verursachen. Wenn das passiert, einfach diese Option ausschalten.</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="no_pdf_in_app">Es ist kein PDF in der App geöffnet</string>
+    <string name="advanced">Erweitert</string>
+    <string name="advanced_config">Erweiterte Konfiguration</string>
+    <string name="part_size_value">PART SIZE-Wert</string>
+    <string name="max_zoom_value">MAX ZOOM-Wert</string>
+    <string name="apply">Anwenden</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="page">Seite</string>
+    <string name="bookmarks">Lesezeichen</string>
+    <string name="no_bookmarks">Diese Datei enthält keine Lesezeichen</string>
+    <string name="additional_options">Mehr</string>
+    <string name="search">Suchen</string>
+    <string name="search_results">Suchergebnisse</string>
+    <string name="copied_to_clipboard">Text in die Zwischenablage kopiert</string>
+    <string name="copy_all">Alles kopieren</string>
+    <string name="increase_text_size">Größe erhöhen</string>
+    <string name="decrease_text_size">Größe verringern</string>
+
+    <string name="search_dialog_message">Diese App versucht, Text aus dem PDF zu extrahieren, daher kann die Genauigkeit nicht garantiert werden</string>
+    <string name="enter_text_to_search">Text zum Suchen eingeben</string>
+    <string name="this_is_experimental">Dies ist experimentell</string>
+    <string name="this_is_experimental_message">Diese Funktion der App befindet sich noch in der Entwicklung und ist nicht stabil oder vollständig korrekt.</string>
+    <string name="go_back">Zurückgehen</string>
+    <string name="selectable_text">Auswählbarer Text der Seite</string>
+    <string name="show_copy_dialog_summary">Ein Popup anzeigen, das den extrahierten Text der Seite enthält, wenn man lange drückt.</string>
+    <string name="show_copy_dialog_title">Textkopie-Dialog anzeigen</string>
+    <string name="copy_page_text">Seitentext kopieren</string>
+    <string name="turn_page_by_volume_buttons_title">Seite mit Lautstärketasten umblättern</string>
+    <string name="turn_page_by_volume_buttons_summary">Mit den physischen Lautstärketasten zur nächsten oder vorherigen Seite gehen</string>
+    <string name="dont_pop_up">Nicht aufpoppen!</string>
+    <string name="text_mode">Textmodus</string>
+    <string name="go_to_page">Gehe zu Seite</string>
+    <string name="no_input">Keine Eingabe!</string>
+    <string name="go_to">Gehe zu</string>
+    <string name="search_field">Suchen…</string>
+    <string name="expand_or_collapse_bookmark">Lesezeichen erweitern oder zusammenklappen</string>
+    <string name="table_of_contents">Inhaltsverzeichnis</string>
+    <string name="screenshot_saved">Screenshot erfolgreich gespeichert</string>
+    <string name="failed_save_screenshot">Screenshot konnte nicht gespeichert werden!</string>
+    <string name="links_in_file">Links in der Datei</string>
+    <string name="page_number">[0/0]</string>
+    <string name="searching">Suchen…</string>
+    <string name="expand_search_result_text">Suchergebnistext erweitern, um mehr anzuzeigen</string>
+    <string name="no_table_of_contents">Kein Inhaltsverzeichnis</string>
+    <string name="too_short_query">Zu kurze Anfrage</string>
+    <string name="too_short_query_message">WARNUNG: Die Suchanfrage \'%s\' ist zu kurz! Ihr Telefon könnte Probleme haben, zu viele Ergebnisse zu verarbeiten. Wenn es danach nicht richtig funktioniert, schließen Sie die App und öffnen Sie sie wieder.</string>
+
+    <string name="loading">Laden…</string>
+    <string name="no_links_put_in_pdf">Keine absichtlich eingebetteten Links im Dokument.</string>
+    <string name="links_activity_title">Im PDF eingebettete Links</string>
+    <string name="too_many_results_may_be_slow">Zu viele Ergebnisse! Die Suche könnte langsam sein.</string>
+    <string name="links_in_document">Links im Dokument</string>
+    <string name="number_of_filtered_results" tools:ignore="PluralsCandidate">"%,d gefilterte Ergebnisse."</string>
+    <string name="no_app_to_open_link">Keine passende App gefunden, um den Link zu öffnen</string>
+    <string name="copy_link_url">Link-URL kopieren</string>
+    <string name="failed_to_extract_text">Textextraktion fehlgeschlagen</string>
+    <string name="page_counter_label">Seite: %d/%d</string>
+    <string name="next_page">Nächste Seite</string>
+    <string name="prev_page">Vorherige Seite</string>
+    <string name="text_color">Textfarbe</string>
+    <string name="background_color">Hintergrundfarbe</string>
+    <string name="reset_to_default">Auf Standard zurücksetzen</string>
+    <string name="proceed_anyway">Trotzdem fortfahren</string>
+    <string name="page_out_of_bound" tools:ignore="PluralsCandidate">Seite #%d existiert nicht in diesem PDF.</string>
+    <string name="press_back_again">Drücken Sie erneut zurück, um zu beenden</string>
+    <string name="dracula_theme">Dracula-Theme</string>
+    <string name="non_clickable_pdf_icon">nicht-klickbares PDF-Symbol</string>
+    <string name="recently_opened">Kürzlich geöffnet</string>
+    <string name="delete">Löschen</string>
+    <string name="delete_dialog_title">Sind Sie sicher?</string>
+    <string name="delete_dialog_message">Das Löschen des Speicherdatensatzes wird bewirken, dass die App alles vergisst, was sie über das PDF weiß.</string>
+    <string name="list_mode">Listenmodus</string>
+    <string name="filter_list_dialog_title">Dateien filtern</string>
+    <string name="status">Status</string>
+    <string name="favorite">Favorit</string>
+
+    <string name="favorite_icon">Lieblings-Icon</string>
+    <string name="last_opened_key">Zuletzt geöffnet:</string>
+    <string name="pdf_cover_image">PDF-Coverbild</string>
+    <string name="all_files">Alle Dateien</string>
+    <string name="about_record">Über den Eintrag</string>
+    <string name="record_percentage_template">(%d%%)</string>
+    <string name="pages">Seiten</string>
+
+    <string name="exit">Beenden</string>
+    <string name="rotate">Drehen</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="auto_scroll">Automatisches Scrollen</string>
+    <string name="horizontal_lock">Horizontalsperre</string>
+    <string name="zoom_lock">Zoomsperre</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="hide_labels">Beschriftungen verbergen</string>
+
+    <string name="behavior_settings">Verhalten</string>
+    <string name="auto_full_screen">Automatischer Vollbildmodus</string>
+    <string name="auto_full_screen_summary">Wenn ein Dokument geöffnet wird, automatisch in den Vollbildmodus wechseln.</string>
+    <string name="always_horizontal">Immer im Querformat</string>
+    <string name="always_horizontal_summary">Immer das Quer-/Landschaftsformat anstelle des Hochformats verwenden.</string>
+    <string name="dark_theme_for_app">UI folgt Systemthema</string>
+    <string name="app_dark_theme_summary">Ermöglicht es der Benutzeroberfläche der App (nicht dem PDF-Inhalt), sich automatisch an das helle oder dunkle Thema Ihres Systems anzupassen. \n\nHinweis: Diese Option kann auf einigen Geräten die PDF-Hintergrundfarben beeinflussen.</string>
+    <string name="dark_theme_for_pdf">PDF folgt Systemthema</string>
+    <string name="pdf_dark_theme_summary">Erlaubt den PDF-Seiten und -Inhalten, sich automatisch an das helle oder dunkle Thema Ihres Systems anzupassen. \n\nHinweis: Die Aktivierung dieser Option deaktiviert \'PDF-Thema umschalten\' im Hauptmenü.</string>
+    <string name="enable_reload_button">Neuladen-Button in der App-Leiste anzeigen</string>
+    <string name="enable_reload_summary">Aktualisiert Ihren Inhalt schnell, sodass alle Dokumentenaktualisierungen sofort sichtbar sind.</string>
+    <string name="save_password">Passwort speichern</string>
+    <string name="send_crash_report_title">Anonymen Absturzbericht senden?</string>
+
+    <string name="send_crash_report_message">Der Bericht enthält folgende Daten: (STACK_TRACE, APP_VERSION_CODE, APP_VERSION_NAME, USER_CRASH_DATE, PACKAGE_NAME, ANDROID_VERSION, PHONE_MODEL, LOGCAT, AVAILABLE_MEM_SIZE)</string>
+    <string name="send">Senden</string>
+    <string name="no">Nein</string>
+    <string name="toggle_shortcuts">Tastenkürzel umschalten</string>
+    <string name="file_properties">Dateieigenschaften</string>
+    <string name="pdf_pages">Seiten</string>
+    <string name="pdf_subject">Betreff</string>
+    <string name="pdf_keywords">Schlüsselwörter</string>
+    <string name="pdf_created">Erstellt</string>
+    <string name="pdf_modified">Geändert</string>
+    <string name="pdf_created_by">Erstellt von</string>
+    <string name="pdf_produced_by">Produziert von</string>
+    <string name="pdf_file_size">Dateigröße</string>
+    <string name="pdf_file_name">Dateiname</string>
+    <string name="reload_pdf">PDF neu laden</string>
+    <string name="text_extraction">Textextraktion</string>
+    <string name="search_in_page">Suche in Seite</string>
+
+</resources>

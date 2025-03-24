@@ -1,0 +1,33 @@
+<i>MJ PDF</i> is a smooth PDF viewer. It contains a simple user interface, supports dark theme, true full screen mode and much more.
+
+* Fast & smooth experience.
+* Minimalist & simple user interface.
+* Remembers the last opened page.
+* Dark mode for the app and the PDF.
+* True full screen with hidable buttons.
+* Search the PDF file. (experimental)
+* Text mode to view PDFs like E-readers. (experimental)
+* An option to keep the screen on.
+* Open online PDFs through links.
+* Share & print PDFs.
+* Open multiple PDFs.
+* FOSS and totally private
+
+<b>Permissions and privacy</b>
+
+This app does not collect any data.
+The following permissions are required to provide specific features in the app:
+
+* Internet: For opening PDFs through links
+* Storage: For saving downloading PDFs and opening them from storage
+
+<b>Author and acknowledgment</b>
+
+* MJ PDF is made by @mudlej.
+* The original app (PDF View Plus) was made by Gokul Swaminathan (@JavaCafe01).
+* Credits to (@Derekelkins)'s pull request for adding the ability to remember last opened page.
+
+<b>License</b>
+
+MJ PDF uses the GPLv3 license, the original app (PDF View Plus) was under MIT license.
+

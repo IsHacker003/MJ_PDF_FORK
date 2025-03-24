@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+    namespace 'com.github.barteksc.pdfviewer'
+
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.core:core:1.10.0'
+    implementation project(path: ':PdfiumAndroid')
+}

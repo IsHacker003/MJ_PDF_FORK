@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:layoutDirection="ltr"
+    tools:context="com.gitlab.mudlej.MjPdfReader.ui.main.MainActivity">
+
+    <!-- Second Bar Layout -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/secondBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- PDFView Layout -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/secondBarLayout">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!-- Main Activity Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="-6dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Pick File Button -->
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:id="@+id/pickFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/pick_file"
+        android:textSize="32sp"
+        android:textColor="?attr/colorOnBackground"
+        android:backgroundTint="?attr/colorSurfaceVariant"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- FS Buttons Layout   -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewActionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false">
+
+        <!-- Full Screen Buttons Layout -->
+        <ScrollView
+            android:id="@+id/fullScreenButtonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:paddingVertical="16dp"
+                android:paddingStart="16dp"
+                android:clickable="false"
+                android:focusable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/exitFullScreenButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/exit_fullscreen_button"
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/exit"
+                    app:icon="@drawable/close_icon"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/rotateScreenButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/rotate_screen"
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/rotate"
+                    app:icon="@drawable/ic_screen_rotate"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/brightnessButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/brightness"
+                    app:icon="@drawable/ic_brightness"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/autoScrollButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/auto_scroll"
+                    app:icon="@drawable/ic_auto_scroll"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/toggleHorizontalSwipeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/horizontal_lock"
+                    app:icon="@drawable/ic_horizontal_swipe"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/toggleZoomLockButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/zoom_lock"
+                    app:icon="@drawable/ic_zoom_out"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/screenshotButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/screenshot"
+                    app:icon="@drawable/ic_screenshot"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/CustomMaterialButton"
+                    android:id="@+id/toggleLabelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:padding="@dimen/fs_button_padding"
+                    android:paddingEnd="@dimen/fs_button_padding_end"
+                    android:layout_marginVertical="@dimen/fs_button_vertical_margin"
+                    android:text="@string/hide_labels"
+                    app:icon="@drawable/ic_double_arrow_left"
+                    app:iconGravity="start"
+                    app:iconSize="@dimen/fs_button_size"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Auto Scroll Speed Text -->
+        <TextView
+            android:id="@+id/autoScrollSpeedText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:layout_marginBottom="16dp"
+            tools:text="122"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnBackground"
+            android:minEms="2"
+            android:background="@drawable/seekbar_background"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:fontFamily="monospace"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/autoScrollLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <!-- Auto Scroll Layout -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/autoScrollLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/brightnessLayout">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CustomMaterialButton"
+                android:id="@+id/reverseScrollDirectionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription=""
+                android:padding="@dimen/fs_button_padding"
+                app:icon="@drawable/ic_reverse_direction"
+                app:iconGravity="textStart"
+                app:iconSize="@dimen/as_button_size"
+                app:iconPadding="0dp"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                tools:ignore="RtlSymmetry" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CustomMaterialButton"
+                android:id="@+id/toggleAutoScrollButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription=""
+                android:padding="@dimen/fs_button_padding"
+                app:icon="@drawable/ic_play_arrow"
+                app:iconGravity="textStart"
+                app:iconSize="@dimen/as_button_size"
+                app:iconPadding="0dp"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                tools:ignore="RtlSymmetry" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CustomMaterialButton"
+                android:id="@+id/decScrollSpeedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription=""
+                android:padding="@dimen/fs_button_padding"
+                app:icon="@drawable/ic_decrease"
+                app:iconGravity="textStart"
+                app:iconSize="@dimen/as_button_size"
+                app:iconPadding="0dp"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                tools:ignore="RtlSymmetry" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CustomMaterialButton"
+                android:id="@+id/incScrollSpeedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription=""
+                android:padding="@dimen/fs_button_padding"
+                app:icon="@drawable/ic_increase"
+                app:iconGravity="textStart"
+                app:iconSize="@dimen/as_button_size"
+                app:iconPadding="0dp"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                tools:ignore="RtlSymmetry" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Brightness Layout -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/brightnessLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginHorizontal="8dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/brightnessSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="200dp"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/seekbar_background"
+                android:progressTint="?attr/colorOnBackground"
+                android:thumbTint="?attr/colorOnBackground"
+                />
+
+            <TextView
+                android:id="@+id/brightnessPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/seekbar_background"
+                android:padding="5dp"
+                tools:text="35%"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

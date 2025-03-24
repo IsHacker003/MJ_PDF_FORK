@@ -1,0 +1,241 @@
+<resources >
+    <!--
+    ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+    ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~
+    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+    ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+-->
+    <string name="what_is_new">
+        * 新增对阿拉伯语、中文、土耳其语、德语、西班牙语、葡萄牙语、印地语、俄语的支持。\n\n
+        * 搜索增强功能：返回结果按钮；更好的高亮显示。\n\n
+        * 用户界面修复：图标颜色一致性，改进布局和可见性。\n\n
+        * 新增永远横向模式。\n\n
+        * 在设置中新增实验性的“重新加载PDF”按钮。\n\n
+        * 更好地支持密码保护和非本地PDF文件。\n\n
+        * 稳定性：修复了后台操作导致的崩溃。\n\n
+        * 开发：升级了SDK、Gradle和依赖项
+    </string>
+    <string name="pick_file">選擇檔案</string>
+    <string name="toast_pick_file_error">無法選取檔案！請檢查手機的檔案管理程式。</string>
+    <string name="toast_http_code_error">遠端伺服器回應錯誤。</string>
+    <string name="toast_generic_download_error">因某種原因，無法下載此檔案。</string>
+    <string name="toast_ssl_error">安全連線建立失敗。</string>
+    <string name="saved_to_download">檔案已儲存到「下載」資料夾。</string>
+    <string name="save_to_download_failed">無法將檔案儲存到「下載」資料夾。</string>
+    <string name="action_about">關於</string>
+    <string name="intro">重播簡介</string>
+    <string name="email">電子郵件（Mum）</string>
+    <string name="description_open">完全免費且無任何限制。\n您可以自由地閱讀、編輯、分享和重新散佈此應用程式及其原始碼。</string>
+    <string name="title_open">這是你的</string>
+    <string name="description_intro">一個快速、簡單且功能強大的 PDF 閱讀器</string>
+    <string name="myLicense">授權</string>
+    <string name="privacy">隱私政策</string>
+    <string name="appChangelog">功能／更新日誌</string>
+    <string name="done">DONE</string>
+    <string name="ok">確認</string>
+    <string name="title_permission">儲存權限</string>
+    <string name="description_permission">此應用程式會請求儲存權限以便能讀取／寫入文件。</string>
+    <string name="libs">開放原始碼庫</string>
+    <string name="code">原始碼</string>
+    <string name="share">分享</string>
+    <string name="share_file">分享檔案</string>
+    <string name="print_file">列印檔案</string>
+    <string name="full_screen">全螢幕</string>
+    <string name="app_info">應用程式資訊</string>
+    <string name="author_info">作者資訊</string>
+    <string name="file_metadata">檔案元資料</string>
+    <string name="app_settings">應用程式設定</string>
+    <string name="quality">高品質渲染</string>
+    <string name="settings">設定</string>
+    <string name="anti_aliasing">抗鋸齒</string>
+    <string name="horizontal_scrolling_mode">水平捲動</string>
+    <string name="double_tap_to_exit">雙擊退出</string>
+    <string name="snap">頁面對齊</string>
+    <string name="snap_summary">每次滑動後，將視角集中至當前頁面。</string>
+    <string name="fling">頁面快速滑動</string>
+    <string name="fling_summary">快速滑動以直接跳到下一頁</string>
+    <string name="visual_settings">視覺</string>
+    <string name="pdf_title">標題</string>
+    <string name="pdf_author">作者</string>
+    <string name="file_opening_error">無法開啟 PDF 檔案。（是否有儲存權限？磁碟空間是否足夠？）</string>
+    <string name="protected_pdf">受保護的 PDF</string>
+    <string name="enter_password">輸入正確的密碼以開啟該文件：</string>
+    <string name="wrong_password">密碼錯誤。</string>
+    <string name="keep_screen_on">保持螢幕開啟</string>
+    <string name="privacy_info">此應用程式不會收集任何資料。\n為提供特定功能，需要以下權限：\n- <b>網際網路</b>：通過連結打開 PDF\n- <b>儲存</b>：從儲存區打開檔案，保存通過連結打開的 PDF</string>
+    <string name="switch_theme">切換 PDF 主題</string>
+    <string name="open_another_pdf">打開另一個 PDF</string>
+    <string name="close">關閉</string>
+    <string name="exit_fullscreen_button">退出全螢幕按鈕</string>
+    <string name="ask_restore_zoom">是否恢復縮放？</string>
+    <string name="rotate_screen">旋轉螢幕</string>
+   …
+    <string name="exit_fullscreen_message">點擊螢幕將在左上角顯示一個 X 按鈕。點擊它以退出全螢幕。</string>
+    <string name="exit_fullscreen_title">如何退出全螢幕</string>
+    <string name="exit_fullscreen_positive">不再顯示</string>
+    <string name="about_app">MJ PDF 是由 Mudlej 製作的一款快速、簡約、功能強大且完全免費的 PDF 閱讀器。</string>
+    <string name="permission_denied">權限被拒絕</string>
+    <string name="error_load_file_name">無法取得檔案名稱</string>
+    <string name="cannot_load_page">"無法加載頁面 "</string>
+
+    <string name="experimental">實驗性</string>
+    <string name="caution">警告</string>
+    <string name="app_dark_dialog_message">在某些裝置上，這個選項可能會導致閱讀 PDF 時出現黑色矩形。如果發生這種情況，只需關閉此選項即可。</string>
+    <string name="restore">還原</string>
+    <string name="no_pdf_in_app">應用程式中沒有打開的 PDF</string>
+    <string name="advanced">進階</string>
+    <string name="advanced_config">進階設定</string>
+    <string name="part_size_value">部分大小值</string>
+    <string name="max_zoom_value">最大縮放值</string>
+    <string name="apply">套用</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="page">頁面</string>
+    <string name="bookmarks">書籤</string>
+    <string name="no_bookmarks">此檔案不含書籤</string>
+    <string name="additional_options">更多</string>
+    <string name="search_results">搜尋結果</string>
+    <string name="copied_to_clipboard">文字已複製到剪貼簿</string>
+    <string name="copy_all">全部複製</string>
+    <string name="increase_text_size">放大字體</string>
+    <string name="decrease_text_size">縮小字體</string>
+    <string name="search_dialog_message">此 App 嘗試從 PDF 提取文字，因此可能不完全準確或正確</string>
+    <string name="enter_text_to_search">輸入要查找的文字</string>
+    <string name="this_is_experimental">這是實驗性的</string>
+    <string name="this_is_experimental_message">此 App 功能仍在開發中，並不穩定或完全正確。</string>
+    <string name="go_back">返回</string>
+    <string name="selectable_text">可選擇的頁面文字</string>
+    <string name="show_copy_dialog_summary">長按時顯示包含頁面已提取文字的彈出視窗。</string>
+    <string name="show_copy_dialog_title">顯示複製文字對話框</string>
+    <string name="copy_page_text">複製頁面文字</string>
+    <string name="turn_page_by_volume_buttons_title">用音量鍵翻頁</string>
+    <string name="turn_page_by_volume_buttons_summary">使用實體音量鍵前往下一頁或上一頁</string>
+    <string name="dont_pop_up">不要彈出！</string><string name="text_mode">文字模式</string>
+    <string name="go_to_page">前往頁面</string>
+    <string name="no_input">無輸入！</string>
+    <string name="go_to">前往</string>
+    <string name="search_field">搜尋…</string>
+    <string name="expand_or_collapse_bookmark">展開或收合書籤</string>
+    <string name="table_of_contents">目錄</string>
+    <string name="screenshot_saved">截圖儲存成功</string>
+    <string name="failed_save_screenshot">無法儲存截圖！</string>
+    <string name="links_in_file">檔案中的連結</string>
+    <string name="page_number">[0/0]</string>
+    <string name="searching">搜尋中…</string>
+    <string name="expand_search_result_text">展開搜尋結果以顯示更多</string>
+    <string name="no_table_of_contents">無目錄</string>
+    <string name="too_short_query">查詢字串過短</string>
+    <string name="too_short_query_message">警告：搜尋查詢「%s」過短！您的手機可能會因處理過多結果而遭受負荷。若有異常情況，請關閉應用程式再重新開啟。</string>
+    <string name="loading">載入中…</string>
+    <string name="no_links_put_in_pdf">本文件中故意未嵌入連結。</string>
+    <string name="links_activity_title">PDF 中的嵌入連結</string>
+    <string name="too_many_results_may_be_slow">結果過多！搜尋可能會緩慢。</string>
+    <string name="links_in_document">文件中的連結</string>
+    <string name="number_of_filtered_results">「%,d 個篩選結果。」</string>
+    <string name="no_app_to_open_link">找不到適合開啟連結的應用程式</string>
+    <string name="copy_link_url">複製連結網址</string>
+    <string name="failed_to_extract_text">無法提取文字</string>
+    <string name="page_counter_label">頁數：%d/%d</string>
+    <string name="next_page">下一頁</string>
+    <string name="prev_page">上一頁</string>
+    <string name="text_color">文字顏色</string>
+    <string name="background_color">背景顏色</string>
+    <string name="reset_to_default">恢復預設</string>
+    <string name="proceed_anyway">繼續進行</string>
+    <string name="page_out_of_bound">PDF 中不存在第 #%d 頁。</string>
+    <string name="press_back_again">再按一次返回以退出</string>
+    <string name="dracula_theme">Dracula 主題</string>
+    <string name="non_clickable_pdf_icon">不可點擊的 PDF 圖示</string>
+    <string name="recently_opened">最近開啟</string>
+    <string name="delete">刪除</string>
+    <string name="delete_dialog_title">您確定嗎？</string>
+    <string name="delete_dialog_message">刪除儲存紀錄將會使應用程式忘記所有關於該 PDF 的資訊。</string>
+    <string name="list_mode">列表模式</string>
+    <string name="filter_list_dialog_title">篩選檔案</string>
+    <string name="status">狀態</string>
+    <string name="favorite">最愛</string>
+    <string name="favorite_icon">最愛圖示</string>
+    <string name="last_opened_key">最後開啟：</string>
+    <string name="pdf_cover_image">PDF 封面圖片</string>
+    <string name="all_files">所有檔案</string>
+    <string name="about_record">關於紀錄</string>
+    <string name="record_percentage_template">（%d%%）</string>
+    <string name="pages">頁面</string>
+
+    <string name="exit">退出</string>
+    <string name="rotate">旋轉</string>
+    <string name="auto_scroll">自動捲動</string>
+    <string name="brightness">亮度</string>
+    <string name="horizontal_lock">水平鎖定</string>
+    <string name="zoom_lock">縮放鎖定</string>
+    <string name="screenshot">截圖</string>
+    <string name="hide_labels">隱藏標籤</string>
+
+    <string name="behavior_settings">行為</string>
+    <string name="auto_full_screen">自動全螢幕</string>
+    <string name="auto_full_screen_summary">當文件被打開時，自動切換至全螢幕模式。</string>
+    <string name="save_password">保存密碼</string>
+    <string name="send_crash_report_title">發送匿名崩潰報告？</string>
+    <string name="send_crash_report_message">報告包含以下內容：（STACK_TRACE、APP_VERSION_CODE、APP_VERSION_NAME、USER_CRASH_DATE、PACKAGE_NAME、ANDROID_VERSION、PHONE_MODEL、LOGCAT、AVAILABLE_MEM_SIZE）</string>
+    <string name="send">發送</string>
+    <string name="no">否</string>
+    <string name="always_horizontal">總是使用橫向模式</string>
+    <string name="always_horizontal_summary">總是使用橫向模式而不是縱向模式。</string>
+    <string name="dark_theme_for_app">UI 跟隨系統主題</string>
+    <string name="app_dark_theme_summary">使應用程式的用戶界面（不包括 PDF 內容）自動適應系統的亮或暗主題。\n\n注意：此選項可能會影響某些設備上的 PDF 背景顏色。</string>
+    <string name="dark_theme_for_pdf">PDF 跟隨系統主題</string>
+    <string name="pdf_dark_theme_summary">允許 PDF 頁面和內容自動適應系統的亮或暗主題。\n\n注意：啟用此選項會禁用主菜單中的「切換 PDF 主題」。</string>
+    <string name="enable_reload_button">在應用程式欄中顯示重新加載按鈕</string>
+    <string name="enable_reload_summary">快速刷新內容，確保文檔的任何更新立即可見。</string>
+    <string name="toggle_shortcuts">切換快捷方式</string>
+    <string name="file_properties">文件屬性</string>
+    <string name="pdf_pages">頁面</string>
+    <string name="pdf_subject">主題</string>
+    <string name="pdf_keywords">關鍵字</string>
+    <string name="pdf_created">創建時間</string>
+    <string name="pdf_modified">修改時間</string>
+    <string name="pdf_created_by">創建者</string>
+    <string name="pdf_produced_by">製作人</string>
+    <string name="pdf_file_size">文件大小</string>
+    <string name="pdf_file_name">文件名</string>
+    <string name="reload_pdf">重新加載 PDF</string>
+    <string name="results">搜索結果</string>
+    <string name="search">搜索</string>
+    <string name="space_between_pages">頁面之間的空間</string>
+    <string name="text_extraction">文字提取</string>
+    <string name="search_in_page">在頁面中搜索</string>
+
+</resources>

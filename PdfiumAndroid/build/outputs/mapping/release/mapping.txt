@@ -1,0 +1,102 @@
+# compiler: R8
+# compiler_version: 8.9.27
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 183f1b2
+# pg_map_hash: SHA-256 183f1b2a68ed5fd1f2fc88be6427df902e4aed9ff2aaaafb62d5c7982fa8603e
+com.shockwave.pdfium.BuildConfig -> com.shockwave.pdfium.BuildConfig:
+# {"id":"sourceFile","fileName":"BuildConfig.java"}
+    1:1:void <init>():6:6 -> <init>
+com.shockwave.pdfium.PdfDocument -> com.shockwave.pdfium.PdfDocument:
+# {"id":"sourceFile","fileName":"PdfDocument.java"}
+    1:7:void <init>():112:118 -> <init>
+    1:1:boolean hasPage(int):121:121 -> hasPage
+com.shockwave.pdfium.PdfDocument$Bookmark -> com.shockwave.pdfium.PdfDocument$Bookmark:
+# {"id":"sourceFile","fileName":"PdfDocument.java"}
+    1:2:void <init>():61:62 -> <init>
+    1:1:java.util.List getChildren():68:68 -> getChildren
+    1:1:long getPageIdx():84:84 -> getPageIdx
+    1:1:java.lang.String getTitle():80:80 -> getTitle
+    1:1:boolean hasChildren():76:76 -> hasChildren
+    1:1:void setChildren(java.util.List):72:72 -> setChildren
+com.shockwave.pdfium.PdfDocument$Link -> com.shockwave.pdfium.PdfDocument$Link:
+# {"id":"sourceFile","fileName":"PdfDocument.java"}
+    1:4:void <init>(android.graphics.RectF,java.lang.Integer,java.lang.String):93:96 -> <init>
+    1:1:android.graphics.RectF getBounds():108:108 -> getBounds
+    1:1:java.lang.Integer getDestPageIdx():100:100 -> getDestPageIdx
+    1:1:java.lang.String getUri():104:104 -> getUri
+com.shockwave.pdfium.PdfDocument$Meta -> com.shockwave.pdfium.PdfDocument$Meta:
+# {"id":"sourceFile","fileName":"PdfDocument.java"}
+    1:1:void <init>():13:13 -> <init>
+    1:1:java.lang.String getAuthor():29:29 -> getAuthor
+    1:1:java.lang.String getCreationDate():49:49 -> getCreationDate
+    1:1:java.lang.String getCreator():41:41 -> getCreator
+    1:1:java.lang.String getKeywords():37:37 -> getKeywords
+    1:1:java.lang.String getModDate():53:53 -> getModDate
+    1:1:java.lang.String getProducer():45:45 -> getProducer
+    1:1:java.lang.String getSubject():33:33 -> getSubject
+    1:1:java.lang.String getTitle():25:25 -> getTitle
+    1:1:int getTotalPages():57:57 -> getTotalPages
+com.shockwave.pdfium.PdfPasswordException -> com.shockwave.pdfium.PdfPasswordException:
+# {"id":"sourceFile","fileName":"PdfPasswordException.java"}
+    1:1:void <init>():7:7 -> <init>
+    2:2:void <init>(java.lang.String):11:11 -> <init>
+com.shockwave.pdfium.PdfiumCore -> com.shockwave.pdfium.PdfiumCore:
+# {"id":"sourceFile","fileName":"PdfiumCore.java"}
+    1:89:void <clinit>():24:112 -> <clinit>
+    1:2:void <init>(android.content.Context):134:135 -> <init>
+    1:4:void clearSearchResultsAnnot(com.shockwave.pdfium.PdfDocument,int):452:455 -> clearSearchResultsAnnot
+    5:5:void clearSearchResultsAnnot(com.shockwave.pdfium.PdfDocument,int):455:455 -> clearSearchResultsAnnot
+    1:17:void closeDocument(com.shockwave.pdfium.PdfDocument):339:355 -> closeDocument
+    18:18:void closeDocument(com.shockwave.pdfium.PdfDocument):355:355 -> closeDocument
+    1:9:android.graphics.Rect[] createHighlightText(com.shockwave.pdfium.PdfDocument,int,int,int,boolean):440:448 -> createHighlightText
+    1:13:com.shockwave.pdfium.PdfDocument$Meta getDocumentMeta(com.shockwave.pdfium.PdfDocument):360:372 -> getDocumentMeta
+    1:11:int getNumFd(android.os.ParcelFileDescriptor):117:127 -> getNumFd
+    12:12:int getNumFd(android.os.ParcelFileDescriptor):124:124 -> getNumFd
+    1:3:int getPageCount(com.shockwave.pdfium.PdfDocument):170:172 -> getPageCount
+    1:7:int getPageHeight(com.shockwave.pdfium.PdfDocument,int):221:227 -> getPageHeight
+    1:7:int getPageHeightPoint(com.shockwave.pdfium.PdfDocument,int):249:255 -> getPageHeightPoint
+    1:19:java.util.List getPageLinks(com.shockwave.pdfium.PdfDocument,int):460:478 -> getPageLinks
+    1:3:com.shockwave.pdfium.util.Size getPageSize(com.shockwave.pdfium.PdfDocument,int):263:265 -> getPageSize
+    1:19:java.lang.String getPageText(com.shockwave.pdfium.PdfDocument,int):406:424 -> getPageText
+    20:21:java.lang.String getPageText(com.shockwave.pdfium.PdfDocument,int):424:425 -> getPageText
+    1:7:int getPageWidth(com.shockwave.pdfium.PdfDocument,int):207:213 -> getPageWidth
+    1:7:int getPageWidthPoint(com.shockwave.pdfium.PdfDocument,int):235:241 -> getPageWidthPoint
+    1:8:java.util.Map getPagesText(com.shockwave.pdfium.PdfDocument,int,int):429:436 -> getPagesText
+    1:8:java.util.List getTableOfContents(com.shockwave.pdfium.PdfDocument):377:384 -> getTableOfContents
+    1:5:android.graphics.Point mapPageCoordsToDevice(com.shockwave.pdfium.PdfDocument,int,int,int,int,int,int,double,double):498:502 -> mapPageCoordsToDevice
+    1:8:android.graphics.RectF mapRectToDevice(com.shockwave.pdfium.PdfDocument,int,int,int,int,int,int,android.graphics.RectF):512:519 -> mapRectToDevice
+    1:1:com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor):141:141 -> newDocument
+    2:6:com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor,java.lang.String):146:150 -> newDocument
+    7:7:com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor,java.lang.String):150:150 -> newDocument
+    8:8:com.shockwave.pdfium.PdfDocument newDocument(byte[]):156:156 -> newDocument
+    9:12:com.shockwave.pdfium.PdfDocument newDocument(byte[],java.lang.String):161:164 -> newDocument
+    13:13:com.shockwave.pdfium.PdfDocument newDocument(byte[],java.lang.String):164:164 -> newDocument
+    1:5:long openPage(com.shockwave.pdfium.PdfDocument,int):178:182 -> openPage
+    1:11:long[] openPages(com.shockwave.pdfium.PdfDocument,int,int):189:199 -> openPages
+    1:14:void recursiveGetBookmark(java.util.List,com.shockwave.pdfium.PdfDocument,long):388:401 -> recursiveGetBookmark
+    1:1:void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int):274:274 -> renderPage
+    2:12:void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int,boolean):284:294 -> renderPage
+    13:19:void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int,boolean):290:296 -> renderPage
+    20:20:void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int,boolean):296:296 -> renderPage
+    1:1:void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int):311:311 -> renderPageBitmap
+    2:11:void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int,boolean):323:332 -> renderPageBitmap
+    12:18:void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int,boolean):328:334 -> renderPageBitmap
+    19:19:void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int,boolean):334:334 -> renderPageBitmap
+com.shockwave.pdfium.util.Size -> com.shockwave.pdfium.util.Size:
+# {"id":"sourceFile","fileName":"Size.java"}
+    1:3:void <init>(int,int):7:9 -> <init>
+    1:3:boolean equals(java.lang.Object):28:30 -> equals
+    1:1:int getHeight():17:17 -> getHeight
+    1:1:int getWidth():13:13 -> getWidth
+    1:1:int hashCode():43:43 -> hashCode
+    1:1:java.lang.String toString():37:37 -> toString
+com.shockwave.pdfium.util.SizeF -> com.shockwave.pdfium.util.SizeF:
+# {"id":"sourceFile","fileName":"SizeF.java"}
+    1:3:void <init>(float,float):7:9 -> <init>
+    1:3:boolean equals(java.lang.Object):28:30 -> equals
+    1:1:float getHeight():17:17 -> getHeight
+    1:1:float getWidth():13:13 -> getWidth
+    1:1:int hashCode():42:42 -> hashCode
+    1:1:com.shockwave.pdfium.util.Size toSize():46:46 -> toSize
+    1:1:java.lang.String toString():37:37 -> toString

@@ -1,0 +1,179 @@
+/*
+            ~ MJ PDF
+    ~ Copyright (C) 2023 Mudlej
+    ~
+            ~ This program is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, either version 3 of the License, or
+    ~ (at your option) any later version.
+    ~ This program is distributed in the hope that it will be useful,
+            ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    ~ GNU General Public License for more details.
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    ~
+
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    ~ This code was previously licensed under
+    ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                    ~ MIT License
+    ~ Copyright (c) 2018 Gokul Swaminathan
+    ~ Copyright (c) 2023 Mudlej
+    ~
+            ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+    ~ of this software and associated documentation files (the "Software"), to deal
+    ~ in the Software without restriction, including without limitation the rights
+    ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    ~ copies of the Software, and to permit persons to whom the Software is
+    ~ furnished to do so, subject to the following conditions:
+    ~ The above copyright notice and this permission notice shall be included in all
+    ~ copies or substantial portions of the Software.
+    ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    ~ SOFTWARE.
+*/
+
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'com.google.devtools.ksp' version '1.9.23-1.0.20'
+}
+
+android {
+    defaultConfig {
+        applicationId "com.gitlab.mudlej.MjPdfReader"
+        minSdkVersion 21
+        compileSdkVersion 34
+        targetSdkVersion 34
+        versionCode 56
+        versionName "2.2.1"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+
+        resValue "string", "CRASH_REPORT_APP_ID", "\"${properties.getProperty("AI")}\""
+        resValue "string", "CRASH_REPORT_API_KEY", "\"${properties.getProperty("AK")}\""
+        resValue "string", "CRASH_REPORT_API_URI", "\"${properties.getProperty("AU")}\""
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url "https://artifactory.appodeal.com/appodeal" }
+    }
+
+    buildFeatures {
+        buildConfig = true
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled = true // for LocalDateTime before api < 26
+
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    namespace 'com.gitlab.mudlej.MjPdfReader'
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+kotlin {
+    ksp {
+        arg("room.schemaLocation", "$projectDir/schemas")
+    }
+}
+
+dependencies {
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20"
+    implementation 'androidx.preference:preference-ktx:1.2.1'
+
+    // Activity
+    api 'androidx.activity:activity-ktx:1.9.0'
+
+    // AndroidX Fragment library Kotlin
+    implementation "androidx.fragment:fragment-ktx:1.7.0"
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.7'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.7'
+
+    // Room
+    implementation "androidx.room:room-runtime:2.6.1"
+    ksp "androidx.room:room-compiler:2.6.1" // use the latest version
+
+    implementation project(path: ':PdfiumAndroid')
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    annotationProcessor "androidx.room:room-compiler:2.6.1"
+
+    // To use Kotlin annotation processing tool
+    ksp "androidx.room:room-compiler:2.6.1"
+
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Material Design
+    implementation 'com.google.android.material:material:1.12.0'
+
+    // Intro Library
+    implementation 'com.github.paolorotolo:appintro:v5.1.0'
+
+    // MJ PDF's fork of
+    implementation project(':AndroidPdfViewer:android-pdf-viewer')
+
+    // License Presenter Library (Proguard config not needed)
+    implementation 'com.github.franmontiel:AttributionPresenter:1.0.1'
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // kotlin coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+
+    // A color picker for Android by Hong Duan
+    implementation 'com.github.duanhong169:colorpicker:1.1.6'
+
+    //  required fir desugar for LocalDateTime with old APIs
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+
+
+    // Area Crash Reporter
+    implementation 'ch.acra:acra-dialog:5.9.0'
+    implementation("ch.acra:acra-http:5.9.0")
+
+    // AutoService
+    kapt("com.google.auto.service:auto-service:1.0.1")
+    compileOnly("com.google.auto.service:auto-service-annotations:1.0.1")
+}

@@ -1,0 +1,7 @@
+* What is new in MJ PDF V1.4.0
+
+- Updated the core libraries and fixed the security issue.
+- Added Search functionality. (experimental) (see Text Mode and Search)
+- Added Text mode to view PDFs like E-readers. (experimental) (see Text Mode and Search)
+- Added the ability to copy text from the PDF via a dialog.
+- Reorganized action bar's options and added Additional Options.
