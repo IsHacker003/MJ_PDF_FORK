@@ -5,3 +5,4 @@ Changes made:<br>
 2. Updated AGP
 3. Removed launcher icon and internet permission
 4. Some other changes in main build.gradle
+5. Added `-dontwarn top.defaults.checkerboarddrawable.CheckerboardDrawable` to app/proguard-rules.pro
