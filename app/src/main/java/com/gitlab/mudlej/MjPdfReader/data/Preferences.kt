@@ -84,7 +84,7 @@ class Preferences(private val prefMan: SharedPreferences) {
         // Default values
         const val firstInstallDefault = true
         const val showFeaturesDialogDefault = true
-        const val highQualityDefault = false
+        const val highQualityDefault = true
         const val antiAliasingDefault = true
         const val horizontalScrollDefault = false
         const val pageSnapDefault = false
