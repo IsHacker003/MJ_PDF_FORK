@@ -56,7 +56,6 @@ import com.franmontiel.attributionpresenter.entities.Attribution
 import com.franmontiel.attributionpresenter.entities.License
 import com.gitlab.mudlej.MjPdfReader.BuildConfig
 import com.gitlab.mudlej.MjPdfReader.databinding.ActivityAboutBinding
-import com.gitlab.mudlej.MjPdfReader.ui.main.MainIntroActivity
 import com.gitlab.mudlej.MjPdfReader.ui.showAppFeaturesDialog
 import com.gitlab.mudlej.MjPdfReader.util.ColorUtil
 import com.gitlab.mudlej.MjPdfReader.util.emailIntent
@@ -94,11 +93,6 @@ class AboutActivity : AppCompatActivity() {
         } else {   //if app is release
             binding.versionTextView.text = APP_VERSION_RELEASE
         }
-    }
-
-    fun replayIntro(v: View?) {
-        //navigate to intro class (replay the intro)
-        startActivity(navIntent(applicationContext, MainIntroActivity::class.java))
     }
 
     fun showLog(v: View?) {
@@ -201,7 +195,7 @@ class AboutActivity : AppCompatActivity() {
     }
 
     fun navToSourceCode(v: View?) {
-        startActivity(linkIntent("https://gitlab.com/mudlej_android/mj_pdf_reader"))
+        startActivity(linkIntent("https://github.com/IsHacker003/MJ_PDF_FORK"))
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

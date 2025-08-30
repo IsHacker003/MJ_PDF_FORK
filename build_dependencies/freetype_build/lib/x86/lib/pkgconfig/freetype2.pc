@@ -1,4 +1,4 @@
-prefix=/home/ishacker/mj_pdf_reader/build_dependencies/freetype_build/lib/x86
+prefix=/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/freetype_build/lib/x86
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

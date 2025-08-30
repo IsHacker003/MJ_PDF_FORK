@@ -11,11 +11,11 @@
 
 # Modeled after libxml-config.
 
-version="1.6.47"
-prefix="/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/arm64-v8a"
-exec_prefix="/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/arm64-v8a"
-libdir="/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/arm64-v8a/lib"
-includedir="/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/arm64-v8a/include/libpng16"
+version="1.6.50"
+prefix="/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/arm64-v8a"
+exec_prefix="/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/arm64-v8a"
+libdir="/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/arm64-v8a/lib"
+includedir="/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/arm64-v8a/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz -lm"
 I_opts="-I${includedir}"

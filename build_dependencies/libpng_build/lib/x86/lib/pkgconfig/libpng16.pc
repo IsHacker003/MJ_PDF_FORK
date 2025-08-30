@@ -1,11 +1,11 @@
-prefix=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/x86
-exec_prefix=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/x86
-libdir=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/x86/lib
-includedir=/home/ishacker/mj_pdf_reader/build_dependencies/libpng_build/lib/x86/include/libpng16
+prefix=/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/x86
+exec_prefix=/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/x86
+libdir=/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/x86/lib
+includedir=/home/ishacker/Downloads/MJ_PDF_FORK/build_dependencies/libpng_build/lib/x86/include/libpng16
 
 Name: libpng
 Description: Loads and saves PNG files
-Version: 1.6.47
+Version: 1.6.50
 Requires.private: zlib
 Libs: -L${libdir} -lpng16
 Libs.private: -lz -lm

@@ -1,346 +1,346 @@
+com.shockwave.pdfium.R$drawable
+com.shockwave.pdfium.BuildConfig
+com.shockwave.pdfium.PdfDocument
+com.shockwave.pdfium.PdfPasswordException
 com.shockwave.pdfium.R$styleable
 com.shockwave.pdfium.R$integer
-com.shockwave.pdfium.R$dimen
-com.shockwave.pdfium.R$id
-com.shockwave.pdfium.util.Size
-com.shockwave.pdfium.PdfiumCore
-com.shockwave.pdfium.R$drawable
-com.shockwave.pdfium.R$string
 com.shockwave.pdfium.R$layout
-com.shockwave.pdfium.PdfDocument$Link
+com.shockwave.pdfium.R$attr
+com.shockwave.pdfium.PdfiumCore
+com.shockwave.pdfium.R$id
 com.shockwave.pdfium.R$color
 com.shockwave.pdfium.R
-com.shockwave.pdfium.R$style
-com.shockwave.pdfium.PdfDocument
-com.shockwave.pdfium.R$attr
-com.shockwave.pdfium.PdfDocument$Bookmark
-com.shockwave.pdfium.BuildConfig
-com.shockwave.pdfium.PdfPasswordException
-com.shockwave.pdfium.PdfDocument$Meta
 com.shockwave.pdfium.util.SizeF
-com.shockwave.pdfium.R$id: int tag_transition_group
-com.shockwave.pdfium.R$styleable: int GradientColor_android_centerY
-com.shockwave.pdfium.R$drawable: int notification_bg
-com.shockwave.pdfium.R$color: int secondary_text_default_material_dark
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_ttcIndex
-com.shockwave.pdfium.PdfiumCore: java.lang.Class FD_CLASS
-com.shockwave.pdfium.R$id: int action_text
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderCerts
-com.shockwave.pdfium.R$styleable: int[] CoordinatorLayout
-com.shockwave.pdfium.R$dimen: int notification_big_circle_margin
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderQuery
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
-com.shockwave.pdfium.R$id: int chronometer
-com.shockwave.pdfium.R$drawable: int notification_bg_low_normal
-com.shockwave.pdfium.R$dimen: int compat_button_padding_vertical_material
-com.shockwave.pdfium.R$id: int notification_main_column_container
-com.shockwave.pdfium.PdfDocument$Link: java.lang.Integer destPageIdx
-com.shockwave.pdfium.R$id: int info
-com.shockwave.pdfium.R$layout: int notification_template_media_custom
-com.shockwave.pdfium.R$layout: int notification_media_action
-com.shockwave.pdfium.BuildConfig: java.lang.String LIBRARY_PACKAGE_NAME
-com.shockwave.pdfium.R$styleable: int GradientColor_android_centerColor
-com.shockwave.pdfium.R$attr: int fontProviderFetchStrategy
-com.shockwave.pdfium.R$styleable: int GradientColor_android_type
-com.shockwave.pdfium.R$drawable: int notification_bg_normal
-com.shockwave.pdfium.R$dimen: int notification_top_pad
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_keylines
-com.shockwave.pdfium.BuildConfig: boolean DEBUG
-com.shockwave.pdfium.R$id: int action_divider
-com.shockwave.pdfium.R$string: int status_bar_notification_info_overflow
-com.shockwave.pdfium.R$styleable: int GradientColor_android_startX
-com.shockwave.pdfium.R$id: int action0
-com.shockwave.pdfium.R$attr: int ttcIndex
-com.shockwave.pdfium.R$id: int line1
-com.shockwave.pdfium.R$layout: int notification_action_tombstone
-com.shockwave.pdfium.R$id: int end
-com.shockwave.pdfium.R$id: int left
-com.shockwave.pdfium.R$color: int notification_action_color_filter
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
-com.shockwave.pdfium.PdfDocument: android.os.ParcelFileDescriptor parcelFileDescriptor
-com.shockwave.pdfium.R$styleable: int[] GradientColorItem
-com.shockwave.pdfium.R$styleable: int GradientColor_android_gradientRadius
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Info_Media
-com.shockwave.pdfium.R$styleable: int GradientColor_android_centerX
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderFetchStrategy
-com.shockwave.pdfium.R$dimen: int notification_right_icon_size
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_statusBarBackground
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_font
-com.shockwave.pdfium.R$attr: int layout_insetEdge
-com.shockwave.pdfium.PdfiumCore: java.lang.reflect.Field mFdField
-com.shockwave.pdfium.R$layout: int notification_template_media
-com.shockwave.pdfium.R$color: int secondary_text_default_material_light
-com.shockwave.pdfium.R$attr: int fontProviderPackage
-com.shockwave.pdfium.R$id: int line3
-com.shockwave.pdfium.R$id: int actions
-com.shockwave.pdfium.R$id: int right
-com.shockwave.pdfium.R$layout: int notification_template_icon_group
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontWeight
-com.shockwave.pdfium.R$dimen: int compat_button_padding_horizontal_material
-com.shockwave.pdfium.R$styleable: int GradientColor_android_startY
-com.shockwave.pdfium.R$id: int bottom
-com.shockwave.pdfium.R$dimen: int compat_notification_large_icon_max_width
-com.shockwave.pdfium.R$layout: int notification_template_part_chronometer
-com.shockwave.pdfium.R$dimen: int subtitle_corner_radius
-com.shockwave.pdfium.PdfiumCore: java.lang.String TAG
-com.shockwave.pdfium.R$id: int normal
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_behavior
-com.shockwave.pdfium.R$dimen: int notification_subtext_size
-com.shockwave.pdfium.R$id: int blocking
-com.shockwave.pdfium.R$color: int ripple_material_light
-com.shockwave.pdfium.R$color: int notification_material_background_media_default_color
-com.shockwave.pdfium.R$id: int start
-com.shockwave.pdfium.PdfDocument$Link: java.lang.String uri
-com.shockwave.pdfium.R$dimen: int notification_large_icon_width
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_keyline
-com.shockwave.pdfium.R$dimen: int notification_top_pad_large_text
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification
-com.shockwave.pdfium.R$attr: int fontProviderFetchTimeout
-com.shockwave.pdfium.R$color: int notification_icon_bg_color
-com.shockwave.pdfium.R$styleable: int[] FontFamilyFont
-com.shockwave.pdfium.R$layout: int notification_template_part_time
-com.shockwave.pdfium.R$id: int icon_group
-com.shockwave.pdfium.R$id: int async
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderAuthority
-com.shockwave.pdfium.R$id: int notification_main_column
-com.shockwave.pdfium.R$layout: int notification_template_custom_big
-com.shockwave.pdfium.R$attr: int fontVariationSettings
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontVariationSettings
-com.shockwave.pdfium.PdfiumCore: java.lang.Object lock
-com.shockwave.pdfium.R$dimen: int notification_right_side_padding_top
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Title
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String modDate
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_font
-com.shockwave.pdfium.R$id: int right_side
-com.shockwave.pdfium.R$dimen: int notification_main_column_padding_top
-com.shockwave.pdfium.R$attr: int layout_anchorGravity
-com.shockwave.pdfium.R$id: int cancel_action
-com.shockwave.pdfium.R$attr: int layout_dodgeInsetEdges
-com.shockwave.pdfium.R$dimen: int compat_control_corner_material
-com.shockwave.pdfium.PdfiumCore: java.lang.String FD_FIELD_NAME
-com.shockwave.pdfium.PdfDocument$Bookmark: long mNativePtr
-com.shockwave.pdfium.R$dimen: int subtitle_shadow_offset
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Line2_Media
-com.shockwave.pdfium.R$attr: int fontProviderAuthority
-com.shockwave.pdfium.R$drawable: int notification_bg_normal_pressed
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontVariationSettings
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String keywords
-com.shockwave.pdfium.R$style: int Widget_Support_CoordinatorLayout
-com.shockwave.pdfium.PdfDocument$Bookmark: long pageIdx
-com.shockwave.pdfium.R$styleable: int GradientColor_android_tileMode
-com.shockwave.pdfium.PdfDocument$Bookmark: java.lang.String title
-com.shockwave.pdfium.R$dimen: int compat_button_inset_horizontal_material
-com.shockwave.pdfium.R$styleable: int ColorStateListItem_android_color
-com.shockwave.pdfium.R$id: int action_image
-com.shockwave.pdfium.R$style: int Widget_Compat_NotificationActionText
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontWeight
-com.shockwave.pdfium.R$layout: int notification_template_big_media_narrow_custom
-com.shockwave.pdfium.R$attr: int layout_behavior
-com.shockwave.pdfium.R$dimen: int notification_media_narrow_margin
-com.shockwave.pdfium.R$color: int primary_text_default_material_dark
-com.shockwave.pdfium.R$id: int top
-com.shockwave.pdfium.R$id: int right_icon
-com.shockwave.pdfium.R$styleable: int[] GradientColor
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Time_Media
-com.shockwave.pdfium.R$attr: int fontStyle
-com.shockwave.pdfium.R$styleable: int ColorStateListItem_alpha
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Title_Media
-com.shockwave.pdfium.R$styleable: int[] FontFamily
-com.shockwave.pdfium.R$dimen: int compat_notification_large_icon_max_height
-com.shockwave.pdfium.PdfDocument: java.util.Map mNativePagesPtr
-com.shockwave.pdfium.R$id: int text
-com.shockwave.pdfium.R$dimen: int notification_action_text_size
-com.shockwave.pdfium.R$id: int time
-com.shockwave.pdfium.R$attr: int alpha
-com.shockwave.pdfium.R$styleable: int GradientColor_android_endY
-com.shockwave.pdfium.R$id: int media_actions
-com.shockwave.pdfium.R$id: int tag_unhandled_key_listeners
-com.shockwave.pdfium.PdfDocument$Link: android.graphics.RectF bounds
-com.shockwave.pdfium.R$styleable: int GradientColorItem_android_offset
-com.shockwave.pdfium.R$dimen: int notification_small_icon_size_as_large
-com.shockwave.pdfium.R$drawable: int notification_icon_background
-com.shockwave.pdfium.R$style: int Widget_Compat_NotificationActionContainer
-com.shockwave.pdfium.R$layout: int notification_template_big_media
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Info
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
-com.shockwave.pdfium.R$attr: int keylines
-com.shockwave.pdfium.R$styleable: int ColorStateListItem_android_alpha
-com.shockwave.pdfium.R$attr: int layout_anchor
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String title
-com.shockwave.pdfium.R$styleable: int GradientColor_android_startColor
-com.shockwave.pdfium.BuildConfig: java.lang.String BUILD_TYPE
-com.shockwave.pdfium.R$dimen: int compat_button_inset_vertical_material
-com.shockwave.pdfium.R$attr: int coordinatorLayoutStyle
-com.shockwave.pdfium.R$id: int text2
-com.shockwave.pdfium.R$layout: int notification_template_big_media_custom
-com.shockwave.pdfium.R$id: int italic
-com.shockwave.pdfium.PdfDocument: long mNativeDocPtr
-com.shockwave.pdfium.R$id: int notification_background
-com.shockwave.pdfium.R$layout: int notification_media_cancel_action
-com.shockwave.pdfium.R$attr: int statusBarBackground
-com.shockwave.pdfium.util.SizeF: float width
-com.shockwave.pdfium.R$dimen: int subtitle_outline_width
-com.shockwave.pdfium.PdfDocument$Meta: int totalPages
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String creationDate
-com.shockwave.pdfium.R$layout: int notification_template_lines_media
-com.shockwave.pdfium.R$dimen: int notification_content_margin_start
-com.shockwave.pdfium.R$drawable: int notify_panel_notification_icon_bg
-com.shockwave.pdfium.R$drawable: int notification_bg_low_pressed
-com.shockwave.pdfium.util.SizeF: float height
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderPackage
-com.shockwave.pdfium.R$layout: int notification_action
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Media
-com.shockwave.pdfium.R$drawable: int notification_template_icon_bg
-com.shockwave.pdfium.R$layout: int notification_template_big_media_narrow
-com.shockwave.pdfium.R$id: int title
-com.shockwave.pdfium.R$drawable: int notification_action_background
-com.shockwave.pdfium.R$integer: int status_bar_notification_info_maxnum
-com.shockwave.pdfium.util.Size: int width
-com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Time
-com.shockwave.pdfium.R$drawable: int notification_tile_bg
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String creator
-com.shockwave.pdfium.R$id: int none
-com.shockwave.pdfium.R$dimen: int notification_large_icon_height
-com.shockwave.pdfium.PdfDocument$Bookmark: java.util.List children
+com.shockwave.pdfium.util.Size
+com.shockwave.pdfium.PdfDocument$Link
+com.shockwave.pdfium.R$string
+com.shockwave.pdfium.PdfDocument$Meta
+com.shockwave.pdfium.PdfDocument$Bookmark
+com.shockwave.pdfium.R$dimen
+com.shockwave.pdfium.R$style
 com.shockwave.pdfium.PdfDocument$Meta: java.lang.String subject
-com.shockwave.pdfium.R$id: int tag_unhandled_key_event_manager
-com.shockwave.pdfium.R$integer: int cancel_button_image_alpha
-com.shockwave.pdfium.R$drawable: int notification_template_icon_low_bg
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String producer
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_ttcIndex
-com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderFetchTimeout
-com.shockwave.pdfium.R$styleable: int[] CoordinatorLayout_Layout
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontStyle
-com.shockwave.pdfium.R$attr: int layout_keyline
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontStyle
+com.shockwave.pdfium.R$id: int actions
+com.shockwave.pdfium.R$drawable: int notification_bg_low
+com.shockwave.pdfium.R$id: int title
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Line2_Media
+com.shockwave.pdfium.R$styleable: int ColorStateListItem_android_color
+com.shockwave.pdfium.R$color: int ripple_material_light
+com.shockwave.pdfium.R$style: int Widget_Support_CoordinatorLayout
+com.shockwave.pdfium.R$id: int text2
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String author
+com.shockwave.pdfium.R$layout: int notification_template_media_custom
 com.shockwave.pdfium.R$id: int forever
+com.shockwave.pdfium.R$dimen: int compat_notification_large_icon_max_width
+com.shockwave.pdfium.R$attr: int layout_anchorGravity
+com.shockwave.pdfium.R$dimen: int compat_button_inset_horizontal_material
+com.shockwave.pdfium.R$dimen: int notification_action_text_size
+com.shockwave.pdfium.R$id: int action_image
+com.shockwave.pdfium.R$id: int tag_unhandled_key_listeners
+com.shockwave.pdfium.R$attr: int statusBarBackground
+com.shockwave.pdfium.R$attr: int layout_dodgeInsetEdges
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String keywords
+com.shockwave.pdfium.R$styleable: int ColorStateListItem_android_alpha
+com.shockwave.pdfium.R$color: int notification_icon_bg_color
+com.shockwave.pdfium.R$drawable: int notification_bg_normal_pressed
+com.shockwave.pdfium.R$id: int icon_group
+com.shockwave.pdfium.R$id: int blocking
+com.shockwave.pdfium.R$drawable: int notification_icon_background
+com.shockwave.pdfium.R$styleable: int GradientColor_android_centerY
+com.shockwave.pdfium.R$dimen: int notification_small_icon_size_as_large
+com.shockwave.pdfium.R$drawable: int notification_action_background
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Time
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_ttcIndex
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontVariationSettings
+com.shockwave.pdfium.R$dimen: int notification_big_circle_margin
+com.shockwave.pdfium.R$layout: int notification_template_big_media_custom
+com.shockwave.pdfium.R$attr: int layout_anchor
+com.shockwave.pdfium.R$styleable: int[] ColorStateListItem
+com.shockwave.pdfium.PdfiumCore: java.lang.String TAG
+com.shockwave.pdfium.R$attr: int fontProviderCerts
+com.shockwave.pdfium.R$styleable: int[] FontFamilyFont
+com.shockwave.pdfium.R$id: int cancel_action
+com.shockwave.pdfium.R$attr: int fontStyle
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Title
+com.shockwave.pdfium.R$styleable: int GradientColor_android_gradientRadius
+com.shockwave.pdfium.R$dimen: int notification_right_side_padding_top
+com.shockwave.pdfium.R$layout: int notification_action
+com.shockwave.pdfium.R$dimen: int subtitle_shadow_radius
+com.shockwave.pdfium.util.SizeF: float width
+com.shockwave.pdfium.R$dimen: int notification_large_icon_width
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String modDate
+com.shockwave.pdfium.R$id: int normal
+com.shockwave.pdfium.R$attr: int fontProviderAuthority
+com.shockwave.pdfium.R$dimen: int compat_button_padding_horizontal_material
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+com.shockwave.pdfium.R$id: int left
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontWeight
+com.shockwave.pdfium.R$id: int chronometer
+com.shockwave.pdfium.R$id: int italic
+com.shockwave.pdfium.R$attr: int fontVariationSettings
+com.shockwave.pdfium.R$id: int right_icon
+com.shockwave.pdfium.R$id: int end
+com.shockwave.pdfium.R$drawable: int notification_tile_bg
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderFetchTimeout
+com.shockwave.pdfium.R$integer: int cancel_button_image_alpha
+com.shockwave.pdfium.R$styleable: int[] GradientColorItem
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderPackage
+com.shockwave.pdfium.R$id: int notification_main_column_container
+com.shockwave.pdfium.R$dimen: int subtitle_shadow_offset
+com.shockwave.pdfium.R$drawable: int notification_bg
+com.shockwave.pdfium.R$attr: int coordinatorLayoutStyle
+com.shockwave.pdfium.R$dimen: int subtitle_corner_radius
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+com.shockwave.pdfium.BuildConfig: java.lang.String BUILD_TYPE
+com.shockwave.pdfium.R$styleable: int ColorStateListItem_alpha
+com.shockwave.pdfium.R$attr: int font
+com.shockwave.pdfium.R$color: int primary_text_default_material_dark
+com.shockwave.pdfium.R$drawable: int notification_template_icon_low_bg
+com.shockwave.pdfium.BuildConfig: boolean DEBUG
+com.shockwave.pdfium.PdfDocument$Bookmark: long mNativePtr
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String producer
+com.shockwave.pdfium.R$attr: int layout_keyline
+com.shockwave.pdfium.R$id: int notification_main_column
+com.shockwave.pdfium.R$id: int info
+com.shockwave.pdfium.R$id: int none
+com.shockwave.pdfium.R$id: int notification_background
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+com.shockwave.pdfium.R$styleable: int GradientColor_android_endColor
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_ttcIndex
+com.shockwave.pdfium.R$id: int line3
+com.shockwave.pdfium.R$dimen: int notification_content_margin_start
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Time_Media
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontWeight
+com.shockwave.pdfium.PdfDocument$Meta: int totalPages
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_fontStyle
+com.shockwave.pdfium.R$id: int action0
+com.shockwave.pdfium.R$dimen: int notification_small_icon_background_padding
+com.shockwave.pdfium.R$styleable: int GradientColor_android_centerX
 com.shockwave.pdfium.R$attr: int fontWeight
 com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Line2
-com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_anchor
-com.shockwave.pdfium.R$id: int icon
-com.shockwave.pdfium.R$drawable: int notification_bg_low
-com.shockwave.pdfium.R$styleable: int GradientColorItem_android_color
-com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontStyle
-com.shockwave.pdfium.R$id: int action_container
-com.shockwave.pdfium.PdfiumCore: int mCurrentDpi
-com.shockwave.pdfium.R$attr: int font
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String author
-com.shockwave.pdfium.R$styleable: int GradientColor_android_endX
-com.shockwave.pdfium.R$styleable: int[] ColorStateListItem
-com.shockwave.pdfium.R$id: int status_bar_latest_event_content
-com.shockwave.pdfium.util.Size: int height
-com.shockwave.pdfium.R$styleable: int GradientColor_android_endColor
-com.shockwave.pdfium.R$attr: int fontProviderCerts
-com.shockwave.pdfium.R$dimen: int subtitle_shadow_radius
-com.shockwave.pdfium.R$dimen: int notification_action_icon_size
-com.shockwave.pdfium.R$attr: int fontProviderQuery
+com.shockwave.pdfium.R$layout: int notification_template_lines_media
+com.shockwave.pdfium.R$layout: int notification_template_media
+com.shockwave.pdfium.R$dimen: int compat_button_padding_vertical_material
+com.shockwave.pdfium.R$styleable: int GradientColorItem_android_offset
 com.shockwave.pdfium.R$id: int end_padder
-com.shockwave.pdfium.R$dimen: int notification_small_icon_background_padding
-com.shockwave.pdfium.util.Size: boolean equals(java.lang.Object)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(byte[])
-com.shockwave.pdfium.PdfDocument: boolean hasPage(int)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor)
-com.shockwave.pdfium.util.SizeF: boolean equals(java.lang.Object)
-com.shockwave.pdfium.PdfDocument$Link: java.lang.String getUri()
-com.shockwave.pdfium.PdfDocument$Link: java.lang.Integer getDestPageIdx()
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(byte[],java.lang.String)
-com.shockwave.pdfium.PdfiumCore: int nativeGetPageWidthPixel(long,int)
-com.shockwave.pdfium.PdfiumCore: long nativeOpenMemDocument(byte[],java.lang.String)
-com.shockwave.pdfium.PdfiumCore: long nativeLoadPage(long,int)
-com.shockwave.pdfium.PdfiumCore: int nativeGetPageHeightPixel(long,int)
+com.shockwave.pdfium.PdfDocument$Bookmark: java.util.List children
+com.shockwave.pdfium.PdfDocument: long mNativeDocPtr
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderAuthority
+com.shockwave.pdfium.R$layout: int notification_template_big_media_narrow
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_font
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_keyline
+com.shockwave.pdfium.R$drawable: int notification_bg_low_normal
+com.shockwave.pdfium.R$layout: int notification_template_part_chronometer
+com.shockwave.pdfium.R$id: int tag_transition_group
+com.shockwave.pdfium.PdfiumCore: java.lang.reflect.Field mFdField
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+com.shockwave.pdfium.R$id: int async
+com.shockwave.pdfium.R$dimen: int compat_notification_large_icon_max_height
+com.shockwave.pdfium.R$id: int line1
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Title_Media
+com.shockwave.pdfium.R$styleable: int[] FontFamily
+com.shockwave.pdfium.R$dimen: int notification_large_icon_height
+com.shockwave.pdfium.R$styleable: int GradientColor_android_endY
+com.shockwave.pdfium.R$layout: int notification_template_icon_group
+com.shockwave.pdfium.R$id: int icon
+com.shockwave.pdfium.R$id: int action_divider
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification
+com.shockwave.pdfium.R$id: int time
+com.shockwave.pdfium.PdfDocument$Link: java.lang.String uri
+com.shockwave.pdfium.PdfDocument$Bookmark: java.lang.String title
+com.shockwave.pdfium.R$styleable: int GradientColor_android_centerColor
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderCerts
+com.shockwave.pdfium.R$id: int right_side
+com.shockwave.pdfium.R$id: int text
+com.shockwave.pdfium.R$id: int bottom
+com.shockwave.pdfium.R$id: int action_text
+com.shockwave.pdfium.R$drawable: int notification_bg_low_pressed
+com.shockwave.pdfium.R$layout: int notification_template_custom_big
+com.shockwave.pdfium.R$color: int secondary_text_default_material_light
+com.shockwave.pdfium.R$styleable: int GradientColor_android_startX
+com.shockwave.pdfium.R$attr: int layout_behavior
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderQuery
+com.shockwave.pdfium.R$attr: int fontProviderQuery
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+com.shockwave.pdfium.R$id: int start
+com.shockwave.pdfium.R$drawable: int notification_bg_normal
+com.shockwave.pdfium.R$integer: int status_bar_notification_info_maxnum
+com.shockwave.pdfium.R$styleable: int GradientColor_android_tileMode
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Media
+com.shockwave.pdfium.R$layout: int notification_template_part_time
+com.shockwave.pdfium.R$styleable: int GradientColor_android_startY
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Info_Media
+com.shockwave.pdfium.R$id: int tag_unhandled_key_event_manager
+com.shockwave.pdfium.R$color: int notification_action_color_filter
+com.shockwave.pdfium.R$layout: int notification_media_cancel_action
+com.shockwave.pdfium.R$id: int right
+com.shockwave.pdfium.R$styleable: int[] CoordinatorLayout_Layout
+com.shockwave.pdfium.util.Size: int height
+com.shockwave.pdfium.R$styleable: int[] CoordinatorLayout
+com.shockwave.pdfium.R$style: int Widget_Compat_NotificationActionText
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+com.shockwave.pdfium.PdfDocument: android.os.ParcelFileDescriptor parcelFileDescriptor
+com.shockwave.pdfium.PdfDocument$Bookmark: long pageIdx
+com.shockwave.pdfium.R$layout: int notification_template_big_media
+com.shockwave.pdfium.R$attr: int ttcIndex
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_keylines
+com.shockwave.pdfium.R$dimen: int notification_top_pad_large_text
+com.shockwave.pdfium.R$color: int notification_material_background_media_default_color
+com.shockwave.pdfium.R$dimen: int notification_main_column_padding_top
+com.shockwave.pdfium.PdfDocument$Link: java.lang.Integer destPageIdx
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String creationDate
+com.shockwave.pdfium.PdfDocument: java.util.Map mNativePagesPtr
+com.shockwave.pdfium.R$styleable: int GradientColor_android_startColor
+com.shockwave.pdfium.R$styleable: int[] GradientColor
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String title
+com.shockwave.pdfium.R$attr: int alpha
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_fontVariationSettings
+com.shockwave.pdfium.R$dimen: int notification_subtext_size
+com.shockwave.pdfium.R$drawable: int notify_panel_notification_icon_bg
+com.shockwave.pdfium.R$styleable: int GradientColor_android_type
+com.shockwave.pdfium.R$attr: int fontProviderFetchStrategy
+com.shockwave.pdfium.util.Size: int width
+com.shockwave.pdfium.R$layout: int notification_action_tombstone
+com.shockwave.pdfium.PdfiumCore: java.lang.Class FD_CLASS
+com.shockwave.pdfium.R$dimen: int compat_button_inset_vertical_material
+com.shockwave.pdfium.BuildConfig: java.lang.String LIBRARY_PACKAGE_NAME
+com.shockwave.pdfium.R$styleable: int GradientColor_android_endX
+com.shockwave.pdfium.PdfiumCore: int mCurrentDpi
+com.shockwave.pdfium.PdfDocument$Link: android.graphics.RectF bounds
+com.shockwave.pdfium.R$attr: int keylines
+com.shockwave.pdfium.R$dimen: int notification_top_pad
+com.shockwave.pdfium.R$styleable: int GradientColorItem_android_color
+com.shockwave.pdfium.R$dimen: int compat_control_corner_material
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String creator
+com.shockwave.pdfium.R$dimen: int notification_action_icon_size
+com.shockwave.pdfium.R$drawable: int notification_template_icon_bg
+com.shockwave.pdfium.R$id: int status_bar_latest_event_content
+com.shockwave.pdfium.R$string: int status_bar_notification_info_overflow
+com.shockwave.pdfium.PdfiumCore: java.lang.String FD_FIELD_NAME
+com.shockwave.pdfium.R$dimen: int notification_right_icon_size
+com.shockwave.pdfium.R$styleable: int FontFamilyFont_android_font
+com.shockwave.pdfium.R$style: int TextAppearance_Compat_Notification_Info
+com.shockwave.pdfium.R$styleable: int CoordinatorLayout_statusBarBackground
+com.shockwave.pdfium.R$attr: int fontProviderFetchTimeout
+com.shockwave.pdfium.R$layout: int notification_media_action
+com.shockwave.pdfium.R$attr: int layout_insetEdge
+com.shockwave.pdfium.R$dimen: int subtitle_outline_width
+com.shockwave.pdfium.R$layout: int notification_template_big_media_narrow_custom
+com.shockwave.pdfium.R$id: int media_actions
+com.shockwave.pdfium.util.SizeF: float height
+com.shockwave.pdfium.R$id: int top
+com.shockwave.pdfium.R$dimen: int notification_media_narrow_margin
+com.shockwave.pdfium.R$color: int secondary_text_default_material_dark
+com.shockwave.pdfium.R$style: int Widget_Compat_NotificationActionContainer
+com.shockwave.pdfium.R$styleable: int FontFamily_fontProviderFetchStrategy
+com.shockwave.pdfium.R$id: int action_container
+com.shockwave.pdfium.R$attr: int fontProviderPackage
+com.shockwave.pdfium.PdfiumCore: java.lang.Object lock
 com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getTitle()
-com.shockwave.pdfium.util.Size: Size(int,int)
-com.shockwave.pdfium.R$dimen: R$dimen()
-com.shockwave.pdfium.PdfDocument$Bookmark: boolean hasChildren()
-com.shockwave.pdfium.PdfiumCore: android.graphics.RectF mapRectToDevice(com.shockwave.pdfium.PdfDocument,int,int,int,int,int,int,android.graphics.RectF)
-com.shockwave.pdfium.util.Size: java.lang.String toString()
-com.shockwave.pdfium.PdfiumCore: void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int,boolean)
-com.shockwave.pdfium.BuildConfig: BuildConfig()
-com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetPageText(long)
-com.shockwave.pdfium.PdfiumCore: long nativeGetBookmarkDestIndex(long,long)
-com.shockwave.pdfium.PdfiumCore: void nativeRenderPage(long,android.view.Surface,int,int,int,int,int,boolean)
-com.shockwave.pdfium.PdfiumCore: android.graphics.RectF nativeGetLinkRect(long)
-com.shockwave.pdfium.PdfDocument: PdfDocument()
-com.shockwave.pdfium.R$string: R$string()
-com.shockwave.pdfium.PdfDocument$Meta: PdfDocument$Meta()
-com.shockwave.pdfium.PdfiumCore: long[] openPages(com.shockwave.pdfium.PdfDocument,int,int)
-com.shockwave.pdfium.PdfiumCore: void nativeClosePage(long)
-com.shockwave.pdfium.PdfiumCore: void recursiveGetBookmark(java.util.List,com.shockwave.pdfium.PdfDocument,long)
-com.shockwave.pdfium.R$attr: R$attr()
-com.shockwave.pdfium.PdfiumCore: java.util.List getTableOfContents(com.shockwave.pdfium.PdfDocument)
-com.shockwave.pdfium.util.SizeF: com.shockwave.pdfium.util.Size toSize()
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getAuthor()
-com.shockwave.pdfium.PdfPasswordException: PdfPasswordException()
-com.shockwave.pdfium.util.SizeF: float getWidth()
-com.shockwave.pdfium.R$style: R$style()
-com.shockwave.pdfium.R$id: R$id()
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getModDate()
-com.shockwave.pdfium.PdfiumCore: void nativeRenderPageBitmap(long,long,android.graphics.Bitmap,int,int,int,int,int,boolean)
-com.shockwave.pdfium.PdfiumCore: int getPageWidth(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfiumCore: long openPage(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfDocument$Bookmark: PdfDocument$Bookmark()
-com.shockwave.pdfium.util.SizeF: int hashCode()
-com.shockwave.pdfium.PdfiumCore: int nativeGetPageHeightPoint(long)
-com.shockwave.pdfium.PdfiumCore: long nativeOpenDocument(int,java.lang.String)
-com.shockwave.pdfium.PdfiumCore: long[] nativeLoadPages(long,int,int)
-com.shockwave.pdfium.PdfiumCore: PdfiumCore(android.content.Context)
-com.shockwave.pdfium.R$drawable: R$drawable()
-com.shockwave.pdfium.PdfDocument$Meta: int getTotalPages()
-com.shockwave.pdfium.PdfiumCore: android.graphics.Rect[] nativeGetPageTextBounds(long,int,int)
-com.shockwave.pdfium.util.Size: int hashCode()
-com.shockwave.pdfium.PdfiumCore: void nativeCloseDocument(long)
+com.shockwave.pdfium.util.Size: boolean equals(java.lang.Object)
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getKeywords()
 com.shockwave.pdfium.PdfiumCore: long[] nativeGetPageLinks(long)
-com.shockwave.pdfium.PdfiumCore: void clearSearchResultsAnnot(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument$Meta getDocumentMeta(com.shockwave.pdfium.PdfDocument)
-com.shockwave.pdfium.R: R()
-com.shockwave.pdfium.PdfDocument$Link: PdfDocument$Link(android.graphics.RectF,java.lang.Integer,java.lang.String)
-com.shockwave.pdfium.R$color: R$color()
-com.shockwave.pdfium.PdfiumCore: java.util.Map getPagesText(com.shockwave.pdfium.PdfDocument,int,int)
-com.shockwave.pdfium.PdfiumCore: java.lang.Integer nativeGetDestPageIndex(long,long)
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getSubject()
-com.shockwave.pdfium.PdfiumCore: android.graphics.Point nativePageCoordsToDevice(long,int,int,int,int,int,double,double)
-com.shockwave.pdfium.PdfiumCore: void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int,boolean)
-com.shockwave.pdfium.PdfiumCore: int nativeGetPageWidthPoint(long)
-com.shockwave.pdfium.PdfiumCore: void nativeClosePages(long[])
+com.shockwave.pdfium.PdfiumCore: java.util.List getPageLinks(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.PdfiumCore: int getPageCount(com.shockwave.pdfium.PdfDocument)
 com.shockwave.pdfium.PdfiumCore: int getPageHeightPoint(com.shockwave.pdfium.PdfDocument,int)
 com.shockwave.pdfium.PdfiumCore: android.graphics.Point mapPageCoordsToDevice(com.shockwave.pdfium.PdfDocument,int,int,int,int,int,int,double,double)
-com.shockwave.pdfium.R$layout: R$layout()
-com.shockwave.pdfium.PdfiumCore: int getPageWidthPoint(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfiumCore: java.lang.String getPageText(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.util.Size: int getHeight()
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getCreator()
-com.shockwave.pdfium.PdfiumCore: int getPageHeight(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfiumCore: java.util.List getPageLinks(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getProducer()
-com.shockwave.pdfium.PdfiumCore: boolean nativeCreateAnnotInPage(long,int,int,int,int,int,boolean)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.util.Size nativeGetPageSizeByIndex(long,int,int)
-com.shockwave.pdfium.PdfDocument$Link: android.graphics.RectF getBounds()
-com.shockwave.pdfium.PdfDocument$Bookmark: java.util.List getChildren()
-com.shockwave.pdfium.PdfiumCore: int nativeGetPageCount(long)
-com.shockwave.pdfium.PdfDocument$Bookmark: java.lang.String getTitle()
-com.shockwave.pdfium.util.SizeF: SizeF(float,float)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.util.Size getPageSize(com.shockwave.pdfium.PdfDocument,int)
-com.shockwave.pdfium.PdfiumCore: java.lang.Long nativeGetFirstChildBookmark(long,java.lang.Long)
-com.shockwave.pdfium.PdfPasswordException: PdfPasswordException(java.lang.String)
-com.shockwave.pdfium.PdfDocument$Bookmark: void setChildren(java.util.List)
-com.shockwave.pdfium.util.SizeF: java.lang.String toString()
-com.shockwave.pdfium.PdfiumCore: void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int)
-com.shockwave.pdfium.R$styleable: R$styleable()
-com.shockwave.pdfium.PdfiumCore: void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int)
-com.shockwave.pdfium.PdfiumCore: int nativeClearSearchResultAnnot(long,int)
-com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor,java.lang.String)
-com.shockwave.pdfium.util.Size: int getWidth()
-com.shockwave.pdfium.PdfDocument$Bookmark: long getPageIdx()
+com.shockwave.pdfium.PdfiumCore: int nativeGetPageHeightPoint(long)
 com.shockwave.pdfium.PdfiumCore: android.graphics.Rect[] createHighlightText(com.shockwave.pdfium.PdfDocument,int,int,int,boolean)
-com.shockwave.pdfium.PdfiumCore: java.lang.Long nativeGetSiblingBookmark(long,long)
-com.shockwave.pdfium.R$integer: R$integer()
-com.shockwave.pdfium.PdfiumCore: int getNumFd(android.os.ParcelFileDescriptor)
-com.shockwave.pdfium.PdfiumCore: int getPageCount(com.shockwave.pdfium.PdfDocument)
-com.shockwave.pdfium.util.SizeF: float getHeight()
-com.shockwave.pdfium.PdfiumCore: void closeDocument(com.shockwave.pdfium.PdfDocument)
-com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetBookmarkTitle(long)
-com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetDocumentMetaText(long,java.lang.String)
-com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetLinkURI(long,long)
+com.shockwave.pdfium.PdfiumCore: void nativeCloseDocument(long)
+com.shockwave.pdfium.PdfiumCore: java.lang.String getPageText(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.R$dimen: R$dimen()
+com.shockwave.pdfium.PdfiumCore: java.util.Map getPagesText(com.shockwave.pdfium.PdfDocument,int,int)
+com.shockwave.pdfium.PdfiumCore: void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int,boolean)
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor)
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getAuthor()
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getCreator()
+com.shockwave.pdfium.PdfiumCore: void clearSearchResultsAnnot(com.shockwave.pdfium.PdfDocument,int)
 com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetPagesText(long,long,long)
+com.shockwave.pdfium.util.Size: java.lang.String toString()
+com.shockwave.pdfium.util.SizeF: float getHeight()
+com.shockwave.pdfium.PdfiumCore: java.lang.Long nativeGetSiblingBookmark(long,long)
+com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetBookmarkTitle(long)
+com.shockwave.pdfium.PdfPasswordException: PdfPasswordException()
+com.shockwave.pdfium.R$id: R$id()
+com.shockwave.pdfium.PdfiumCore: int getPageHeight(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.BuildConfig: BuildConfig()
+com.shockwave.pdfium.PdfiumCore: void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int,boolean)
+com.shockwave.pdfium.PdfiumCore: void recursiveGetBookmark(java.util.List,com.shockwave.pdfium.PdfDocument,long)
+com.shockwave.pdfium.PdfiumCore: void closeDocument(com.shockwave.pdfium.PdfDocument)
+com.shockwave.pdfium.R$attr: R$attr()
+com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetDocumentMetaText(long,java.lang.String)
+com.shockwave.pdfium.R$integer: R$integer()
+com.shockwave.pdfium.PdfiumCore: android.graphics.RectF nativeGetLinkRect(long)
+com.shockwave.pdfium.PdfiumCore: java.lang.Long nativeGetFirstChildBookmark(long,java.lang.Long)
+com.shockwave.pdfium.PdfiumCore: long[] nativeLoadPages(long,int,int)
+com.shockwave.pdfium.PdfDocument$Bookmark: PdfDocument$Bookmark()
+com.shockwave.pdfium.PdfiumCore: android.graphics.Point nativePageCoordsToDevice(long,int,int,int,int,int,double,double)
+com.shockwave.pdfium.PdfiumCore: void nativeClosePages(long[])
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(byte[],java.lang.String)
+com.shockwave.pdfium.PdfiumCore: long nativeGetBookmarkDestIndex(long,long)
+com.shockwave.pdfium.PdfiumCore: int getPageWidthPoint(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.util.Size nativeGetPageSizeByIndex(long,int,int)
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(byte[])
+com.shockwave.pdfium.PdfDocument$Meta: PdfDocument$Meta()
+com.shockwave.pdfium.R$layout: R$layout()
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument$Meta getDocumentMeta(com.shockwave.pdfium.PdfDocument)
+com.shockwave.pdfium.PdfiumCore: int getNumFd(android.os.ParcelFileDescriptor)
+com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetLinkURI(long,long)
+com.shockwave.pdfium.PdfDocument$Bookmark: long getPageIdx()
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getSubject()
+com.shockwave.pdfium.PdfiumCore: boolean nativeCreateAnnotInPage(long,int,int,int,int,int,boolean)
 com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getCreationDate()
-com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getKeywords()
+com.shockwave.pdfium.PdfDocument$Link: android.graphics.RectF getBounds()
+com.shockwave.pdfium.PdfDocument$Bookmark: void setChildren(java.util.List)
+com.shockwave.pdfium.R: R()
+com.shockwave.pdfium.R$styleable: R$styleable()
+com.shockwave.pdfium.util.SizeF: float getWidth()
+com.shockwave.pdfium.util.SizeF: com.shockwave.pdfium.util.Size toSize()
+com.shockwave.pdfium.PdfiumCore: int nativeGetPageWidthPoint(long)
+com.shockwave.pdfium.PdfDocument$Meta: int getTotalPages()
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.PdfDocument newDocument(android.os.ParcelFileDescriptor,java.lang.String)
+com.shockwave.pdfium.PdfiumCore: long nativeLoadPage(long,int)
+com.shockwave.pdfium.PdfiumCore: int nativeClearSearchResultAnnot(long,int)
+com.shockwave.pdfium.util.SizeF: SizeF(float,float)
+com.shockwave.pdfium.util.Size: int getWidth()
+com.shockwave.pdfium.util.Size: int hashCode()
+com.shockwave.pdfium.PdfiumCore: void renderPageBitmap(com.shockwave.pdfium.PdfDocument,android.graphics.Bitmap,int,int,int,int,int)
+com.shockwave.pdfium.util.SizeF: boolean equals(java.lang.Object)
+com.shockwave.pdfium.PdfDocument$Link: PdfDocument$Link(android.graphics.RectF,java.lang.Integer,java.lang.String)
+com.shockwave.pdfium.PdfiumCore: void nativeRenderPage(long,android.view.Surface,int,int,int,int,int,boolean)
+com.shockwave.pdfium.util.SizeF: java.lang.String toString()
+com.shockwave.pdfium.PdfiumCore: void nativeRenderPageBitmap(long,long,android.graphics.Bitmap,int,int,int,int,int,boolean)
+com.shockwave.pdfium.PdfiumCore: int nativeGetPageWidthPixel(long,int)
+com.shockwave.pdfium.PdfiumCore: long nativeOpenDocument(int,java.lang.String)
+com.shockwave.pdfium.util.Size: int getHeight()
+com.shockwave.pdfium.PdfDocument: boolean hasPage(int)
+com.shockwave.pdfium.PdfiumCore: void nativeClosePage(long)
+com.shockwave.pdfium.PdfDocument$Bookmark: java.util.List getChildren()
+com.shockwave.pdfium.R$color: R$color()
+com.shockwave.pdfium.PdfiumCore: long nativeOpenMemDocument(byte[],java.lang.String)
+com.shockwave.pdfium.PdfiumCore: java.util.List getTableOfContents(com.shockwave.pdfium.PdfDocument)
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getProducer()
+com.shockwave.pdfium.util.SizeF: int hashCode()
+com.shockwave.pdfium.PdfiumCore: android.graphics.RectF mapRectToDevice(com.shockwave.pdfium.PdfDocument,int,int,int,int,int,int,android.graphics.RectF)
+com.shockwave.pdfium.PdfiumCore: int nativeGetPageHeightPixel(long,int)
+com.shockwave.pdfium.R$string: R$string()
+com.shockwave.pdfium.PdfiumCore: java.lang.String nativeGetPageText(long)
+com.shockwave.pdfium.PdfiumCore: long[] openPages(com.shockwave.pdfium.PdfDocument,int,int)
+com.shockwave.pdfium.PdfPasswordException: PdfPasswordException(java.lang.String)
+com.shockwave.pdfium.PdfiumCore: long openPage(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.PdfDocument: PdfDocument()
+com.shockwave.pdfium.R$style: R$style()
+com.shockwave.pdfium.PdfDocument$Bookmark: java.lang.String getTitle()
+com.shockwave.pdfium.PdfiumCore: void renderPage(com.shockwave.pdfium.PdfDocument,android.view.Surface,int,int,int,int,int)
+com.shockwave.pdfium.PdfDocument$Link: java.lang.Integer getDestPageIdx()
+com.shockwave.pdfium.PdfDocument$Link: java.lang.String getUri()
+com.shockwave.pdfium.PdfiumCore: int nativeGetPageCount(long)
+com.shockwave.pdfium.PdfiumCore: java.lang.Integer nativeGetDestPageIndex(long,long)
+com.shockwave.pdfium.PdfiumCore: android.graphics.Rect[] nativeGetPageTextBounds(long,int,int)
+com.shockwave.pdfium.PdfiumCore: int getPageWidth(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.PdfDocument$Bookmark: boolean hasChildren()
+com.shockwave.pdfium.util.Size: Size(int,int)
+com.shockwave.pdfium.R$drawable: R$drawable()
+com.shockwave.pdfium.PdfiumCore: com.shockwave.pdfium.util.Size getPageSize(com.shockwave.pdfium.PdfDocument,int)
+com.shockwave.pdfium.PdfiumCore: PdfiumCore(android.content.Context)
+com.shockwave.pdfium.PdfDocument$Meta: java.lang.String getModDate()

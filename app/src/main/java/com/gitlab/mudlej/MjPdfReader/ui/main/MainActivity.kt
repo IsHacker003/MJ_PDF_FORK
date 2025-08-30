@@ -242,9 +242,6 @@ class MainActivity : AppCompatActivity() {
     private fun onFirstInstall() {
         // To avoid com.github.paolorotolo.appintro.AppIntroBaseFragment.onCreateView
         // android.content.res.Resources$NotFoundException
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
-            startActivity(Intent(this, MainIntroActivity::class.java))
-        }
         pref.setFirstInstall(false)
         pref.setShowFeaturesDialog(true)
     }
@@ -1166,6 +1163,7 @@ class MainActivity : AppCompatActivity() {
         val searchView = menu.findItem(R.id.searchOption).actionView as SearchView
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
+                @SuppressLint("RestrictedApi")
                 fun startSearchActivity() {
                     pdf.lastQuery = query
                     Intent(this@MainActivity, SearchActivity::class.java).also { searchIntent ->
