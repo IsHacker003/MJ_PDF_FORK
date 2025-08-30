@@ -7,3 +7,4 @@ Changes made:<br>
 4. Some other changes in main build.gradle
 5. Added `-dontwarn top.defaults.checkerboarddrawable.CheckerboardDrawable` to app/proguard-rules.pro
 6. Removed intro
+7. "High quality rendering" is turned on by default
