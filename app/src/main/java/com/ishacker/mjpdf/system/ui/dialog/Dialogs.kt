@@ -90,7 +90,7 @@ fun showAppFeaturesDialog(context: Context) {
         .create()
 
     try {
-        dialog.show()
+        return
     }
     catch (e: Throwable) {
         Log.e(TAG, "showAppFeaturesDialog: Error showing the dialog.(${e.message})")
