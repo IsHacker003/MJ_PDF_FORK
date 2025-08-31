@@ -48,7 +48,7 @@ plugins {
 
 android {
     defaultConfig {
-        applicationId "com.gitlab.mudlej.MjPdfReader"
+        applicationId "com.ishacker.mjpdf.system"
         minSdkVersion 21
         compileSdkVersion 34
         targetSdkVersion 34
@@ -103,7 +103,7 @@ android {
         jvmTarget = '17'
     }
 
-    namespace 'com.gitlab.mudlej.MjPdfReader'
+    namespace 'com.ishacker.mjpdf.system'
     lint {
         abortOnError false
         checkReleaseBuilds false

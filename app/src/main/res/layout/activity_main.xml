@@ -46,7 +46,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     android:layoutDirection="ltr"
-    tools:context="com.gitlab.mudlej.MjPdfReader.ui.main.MainActivity">
+    tools:context="com.ishacker.mjpdf.system.ui.main.MainActivity">
 
     <!-- Second Bar Layout -->
     <androidx.appcompat.widget.LinearLayoutCompat
