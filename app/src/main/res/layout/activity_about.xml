@@ -114,18 +114,6 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/changeView"
-                android:onClick="showLog"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:drawablePadding="16dp"
-                android:padding="16sp"
-                android:text="@string/appChangelog"
-                android:textSize="16sp"
-                app:drawableStartCompat="@drawable/log_icon" />
-
-            <TextView
                 android:id="@+id/licenseView"
                 android:onClick="showLicense"
                 android:layout_width="match_parent"
@@ -136,18 +124,6 @@
                 android:text="@string/myLicense"
                 android:textSize="16sp"
                 app:drawableStartCompat="@drawable/license_icon" />
-
-            <TextView
-                android:id="@+id/privacyView"
-                android:onClick="showPrivacy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:drawablePadding="16dp"
-                android:padding="16sp"
-                android:text="@string/privacy"
-                android:textSize="16sp"
-                app:drawableStartCompat="@drawable/privacy_icon" />
 
             <TextView
                 android:id="@+id/codeView"
